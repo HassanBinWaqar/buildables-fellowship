@@ -49,8 +49,6 @@ Today I focused on making UIs **interactive and dynamic with pure CSS**:
 - **Animations:** Keyframed movements using `@keyframes` for spinners, bouncing effects, etc.  
 - **Hover Effects & Micro-interactions:** Small, meaningful motions to improve UX.  
 
-**Project:** Interactive CSS Mini UI — [Live Demo / Code](./day3-css/project/)
-
 **Pro Tips Learned:**  
 - Always pair `transition` with specific properties.  
 - Use `ease-in-out` or `cubic-bezier()` for realistic motion.  
