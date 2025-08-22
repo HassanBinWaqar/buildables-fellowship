@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eef2ff;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.card {
+  width: 180px;
+  height: 180px;
+  background: #3b82f6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: rotate(10deg) scale(1.1) translateY(-10px);
+}

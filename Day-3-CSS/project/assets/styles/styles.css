@@ -1,0 +1,157 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: system-ui, sans-serif;
+  margin:0; padding:0;
+  background:#f0f9ff; color:#111;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+body.dark {
+  background:#111;
+  color:#f0f9ff;
+}
+
+header {
+  text-align:center;
+  padding:32px;
+  position: relative;
+}
+
+header h1 { font-size:2.5rem; margin-bottom:8px; }
+header p { color:#475569; margin-bottom:16px; }
+
+.dark-mode-toggle {
+  position:absolute;
+  top:20px; right:20px;
+  padding:8px 12px;
+  border:none; border-radius:8px;
+  cursor:pointer;
+  background:#2563eb; color:#fff;
+  transition: all 0.3s ease;
+}
+.dark-mode-toggle:hover {
+  background:#3b82f6;
+  transform: scale(1.05);
+}
+
+/* ===== Main Layout ===== */
+main {
+  display:grid;
+  gap:48px;
+  padding:0 24px 48px;
+  max-width:900px;
+  margin:auto;
+}
+
+/* ===== Buttons ===== */
+.buttons {
+  display:flex;
+  flex-wrap: wrap;
+  gap:16px;
+  justify-content:center;
+}
+
+.btn {
+  padding:14px 28px;
+  border-radius:12px;
+  border:none;
+  font-weight:600;
+  cursor:pointer;
+  transition: all 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+  box-shadow:0 6px 12px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow:0 12px 24px rgba(0,0,0,0.2);
+}
+
+.btn.primary { background:linear-gradient(135deg,#3b82f6,#2563eb); color:#fff; }
+.btn.secondary { background:linear-gradient(135deg,#facc15,#eab308); color:#111; }
+.btn.tertiary { background:linear-gradient(135deg,#10b981,#059669); color:#fff; }
+
+/* ===== Cards ===== */
+.cards {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap:24px;
+  justify-items:center;
+  perspective:1000px;
+}
+
+.card {
+  width:140px;
+  height:140px;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border:1px solid rgba(255,255,255,0.2);
+  color:rgb(46, 170, 154);
+  font-weight:bold;
+  cursor:pointer;
+  transition: all 0.4s ease;
+  box-shadow:0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card:hover {
+  transform: rotateY(180deg) scale(1.1) translateY(-10px);
+  box-shadow:0 16px 32px rgba(0,0,0,0.25);
+}
+
+.card.rotate:hover { transform: rotateY(180deg); }
+.card.scale:hover { transform: scale(1.2); }
+
+/* ===== Animations ===== */
+.animations {
+  display:flex;
+  gap:24px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.spinner {
+  width:60px;
+  height:60px;
+  border:8px solid #fcd34d;
+  border-top:8px solid #f59e0b;
+  border-radius:50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.bounce-box {
+  width:60px;
+  height:60px;
+  background:#3b82f6;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,100% { transform: translateY(0);}
+  50% { transform: translateY(-20px);}
+}
+
+/* ===== Dark Mode Styles ===== */
+body.dark .card {
+  background: rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+body.dark .btn.primary { background:linear-gradient(135deg,#2563eb,#3b82f6); color:#fff; }
+body.dark .btn.secondary { background:linear-gradient(135deg,#eab308,#facc15); color:#111; }
+body.dark .btn.tertiary { background:linear-gradient(135deg,#059669,#10b981); color:#fff; }
+body.dark .spinner { border:8px solid #f59e0b; border-top:8px solid #fcd34d; }
+body.dark .bounce-box { background:#2563eb; }

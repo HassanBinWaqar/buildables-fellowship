@@ -1,0 +1,36 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  background: #f0f4f8;
+  margin: 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: #3b82f6;
+  color: #fff;
+}
+.btn.primary:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+.btn.secondary {
+  background: #facc15;
+  color: #111;
+}
+.btn.secondary:hover {
+  background: #eab308;
+  transform: scale(1.05);
+}

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100vh;
+  background: #f0fdf4;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background: #10b981;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(16,185,129,0.5);
+}
+
+.image {
+  border-radius: 16px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.image:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
