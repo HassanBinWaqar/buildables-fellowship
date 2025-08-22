@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Hassan Bin Waqar" />
+    <title>Day 2 — CSS Component Library</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>HBW UI • Day 2</h1>
+        <p class="subtitle">
+          A tiny, elegant CSS style guide showcasing fundamentals.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Colors -->
+      <section>
+        <h2>Colors</h2>
+        <div class="swatches">
+          <div class="sw" data-name="Primary" style="--c: var(--primary)"></div>
+          <div class="sw" data-name="Accent" style="--c: var(--accent)"></div>
+          <div class="sw" data-name="Surface" style="--c: var(--surface)"></div>
+          <div class="sw" data-name="Text" style="--c: var(--text)"></div>
+          <div class="sw" data-name="Muted" style="--c: var(--muted)"></div>
+        </div>
+      </section>
+
+      <!-- Type scale -->
+      <section>
+        <h2>Typography</h2>
+        <p class="lead">
+          Fluid headings using <code>clamp()</code>, readable line-height, and
+          8px spacing scale.
+        </p>
+        <div class="type-demo">
+          <h1>Heading 1 — Bold & Clear</h1>
+          <h2>Heading 2 — Section Title</h2>
+          <h3>Heading 3 — Subsection</h3>
+          <p>
+            Paragraph — good contrast, comfortable line-length, and balanced
+            spacing. <a href="#">Links</a> have clear hover states.
+          </p>
+        </div>
+      </section>
+
+      <!-- Buttons -->
+      <section>
+        <h2>Buttons</h2>
+        <div class="row">
+          <a class="btn primary" href="#">Primary</a>
+          <a class="btn outline" href="#">Outline</a>
+          <a class="btn ghost" href="#">Ghost</a>
+        </div>
+      </section>
+
+      <!-- Cards -->
+      <section>
+        <h2>Cards</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Starter Kit</h3>
+            <p>Reset, variables, and utilities to kickstart any project.</p>
+            <a class="btn small primary" href="#">Use Kit</a>
+          </article>
+          <article class="card">
+            <h3>Layout Primitives</h3>
+            <p>Flexbox/grid helpers for fast, responsive layouts.</p>
+            <a class="btn small outline" href="#">Explore</a>
+          </article>
+          <article class="card">
+            <h3>Form Elements</h3>
+            <p>Accessible inputs with clear focus states.</p>
+            <a class="btn small ghost" href="#">Docs</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Forms -->
+      <section>
+        <h2>Form Elements</h2>
+        <form class="form">
+          <label>
+            <span>Your email</span>
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea rows="4" placeholder="Write a quick note…"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </section>
+
+      <!-- Theme preview (CSS-only toggle via sibling selector) -->
+      <section id="theme">
+        <h2>Theme Preview (No JS)</h2>
+        <label class="toggle">
+          <input id="toggle" type="checkbox" />
+          <span>Dark mode</span>
+        </label>
+
+        <div class="preview">
+          <div class="preview-card">
+            <h3>Preview Card</h3>
+            <p>This area switches theme using a checkbox and CSS variables.</p>
+            <a class="btn small primary" href="#">Action</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">Built by Hassan Bin Waqar • Day 2</div>
+    </footer>
+  </body>
+</html>

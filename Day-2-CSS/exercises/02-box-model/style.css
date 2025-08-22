@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; padding: 24px; background:#f8fafc; }
+h1 { margin-bottom: 16px; }
+
+.row { display: flex; gap: 16px; }
+.price {
+  background:#fff; border:1px solid #e5e7eb; border-radius:16px;
+  padding:20px; width:100%; outline: 0;
+}
+.price + .price { margin-left: 0; } /* demonstrate margins collapsing avoidance */
+.price h2 { margin:0 0 4px; }
+.price p { margin:0 0 12px; color:#475569; }
+.price strong { display:block; font-size:28px; margin-bottom:12px; }
+.price button {
+  padding:8px 12px; border-radius:999px; border:1px solid #111; background:#111; color:#fff;
+}
+.price:hover { outline: 3px solid #3b82f6; outline-offset: 3px; }
+.price.featured { border-width:2px; border-color:#3b82f6; }

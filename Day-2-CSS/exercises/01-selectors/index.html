@@ -1,0 +1,43 @@
+<!-- What to do inside exercises/
+01-selectors — Selectors & Specificity
+
+Goal: Practice type, class, id, attribute, pseudo-class selectors + specificity. -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Selectors & Specificity</title>
+  <meta name="author" content="Hassan Bin Waqar" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="top">
+    <h1 class="title">News Feed</h1>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#" class="active">Latest</a>
+      <a href="#" data-beta="true">Beta</a>
+    </nav>
+  </header>
+
+  <main class="feed">
+    <article class="card featured" data-state="new">
+      <h2>Launch: CSS Utils</h2>
+      <p>Small utility classes to speed up your styling.</p>
+      <a class="btn" href="#">Read more</a>
+    </article>
+
+    <article class="card" data-state="archived">
+      <h2>HTML Forms Best Practices</h2>
+      <p>Labels, inputs, and accessible patterns.</p>
+      <a class="btn" href="#">Read more</a>
+    </article>
+
+    <article class="card">
+      <h2>Flexbox vs Grid</h2>
+      <p>When to use which? Clear guidelines.</p>
+      <a class="btn" href="#">Read more</a>
+    </article>
+  </main>
+</body>
+</html>
