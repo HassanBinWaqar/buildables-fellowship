@@ -32,36 +32,36 @@ This repo serves as my **complete learning log**, documenting every day of my jo
 ## 📂 Repository Structure
 
 ```bash
-buildables-fellowship/
+buildables-mern-fellowship/
 │
-├── Day-01/
-│   ├── 01-basic-html.html
-│   ├── 02-css-intro.html
-│   ├── 03-typography.html
-│   ├── 04-advanced-positioning.html
-│   ├── 05-flexbox-layout.html
-│   ├── 06-grid-dashboard.html
+├── Day-1-HTML/
+│   ├── exercises/
+│   ├── notes/
+│   └── project/
 │
-├── Day-02/
-│   ├── html-css-project/
-│   ├── meta-glasses-website/
+├── Day-2-CSS/
+│   ├── exercises/
+│   ├── notes/
+│   └── project/
 │
-├── Day-03/
-│   ├── advanced-css/
-│   ├── responsive-design/
+├── Day-3-CSS/
+│   ├── exercises/
+│   ├── notes/
+│   └── project/
 │
-├── projects/
-│   ├── netflix-clone/
-│   ├── weather-app/
-│   ├── youtube-clone/
-│   ├── ecommerce-website/
+├── Day-4-CSS/
+│   ├── exercises/
+│   ├── notes/
+│   └── project/
 │
 ├── assets/
 │   ├── images/
-│   └── styles/
+│   ├── styles/
+│   └── fonts/
 │
 ├── README.md
 └── LICENSE
+
 ```
 
 ---
