@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Positioning</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f8fc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #007bff;
+      color: white;
+      padding: 15px 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    /* Content */
+    .container {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 20px;
+    }
+
+    .box-wrapper {
+      position: relative;
+      height: 400px;
+      border: 2px dashed #007bff;
+      margin-bottom: 40px;
+      border-radius: 12px;
+    }
+
+    .box {
+      width: 120px;
+      height: 120px;
+      background-color: #007bff;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .relative-box {
+      position: relative;
+      top: 30px;
+      left: 20px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      right: 20px;
+    }
+
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      background-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advanced Positioning Demo</h1>
+  </header>
+  <div class="container">
+    <section class="box-wrapper">
+      <div class="box relative-box">Relative</div>
+      <div class="box absolute-box">Absolute</div>
+    </section>
+    <section>
+      <h2>Sticky Positioning</h2>
+      <p>
+        Scroll down to see the green box stick to the top when you scroll.
+      </p>
+      <div class="box sticky-box">Sticky Box</div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        habitant morbi tristique senectus et netus et malesuada fames ac turpis
+        egestas. Proin vulputate, libero id bibendum tristique, lorem risus
+        efficitur orci, vitae suscipit lorem sem a eros.
+      </p>
+      <p>
+        Donec tristique ipsum at elit sagittis, sit amet ultricies nunc maximus.
+        Sed non elit nec lorem hendrerit vulputate.
+      </p>
+    </section>
+  </div>
+</body>
+</html>

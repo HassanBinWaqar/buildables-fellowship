@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StyleScape | CSS Properties Showcase</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <script defer src="scripts/theme-toggle.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">StyleScape</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <button id="theme-toggle">🌗</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Master CSS Like a Pro 🚀</h1>
+      <p>
+        Explore the power of modern CSS properties through this interactive
+        showcase.
+      </p>
+      <button class="cta">Explore Now</button>
+    </section>
+
+    <section id="features" class="features">
+      <div class="card">
+        <h2>Glassmorphism</h2>
+        <p>Modern frosted UI with blur effects.</p>
+      </div>
+      <div class="card">
+        <h2>Neumorphism</h2>
+        <p>Soft shadows, clean UI, and minimalistic styles.</p>
+      </div>
+      <div class="card">
+        <h2>Dark Mode</h2>
+        <p>Switch between themes seamlessly.</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <img src="./assets/images/pexels-sebastiaan9977-1097456.jpg" alt="" />
+      <img src="./assets/images/pexels-jessbaileydesign-743986.jpg" alt="" />
+      <img src="./assets/images/code.jpeg" alt="" />
+    </section>
+
+    <footer class="footer">
+      <p>
+        Created by <strong>Hassan Bin Waqar</strong> | Buildables MERN
+        Fellowship
+      </p>
+    </footer>
+
+    <script>
+      const toggleBtn = document.getElementById("theme-toggle");
+      toggleBtn.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
+  </body>
+</html>

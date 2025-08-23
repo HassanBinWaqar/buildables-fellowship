@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6fc;
+      color: #222;
+    }
+
+    header {
+      background-color: #007bff;
+      padding: 15px 20px;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      padding: 20px;
+      flex: 1 1 calc(33% - 20px);
+      min-width: 250px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Flexbox Layout</header>
+  <section class="container">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Responsive and adaptive layout using Flexbox.</p>
+    </div>
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Cards automatically adjust according to screen size.</p>
+    </div>
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Hover effects and smooth transitions make UI modern.</p>
+    </div>
+  </section>
+</body>
+</html>
