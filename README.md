@@ -1,136 +1,125 @@
-<<<<<<< HEAD
-🚀 Buildables Fellowship — MERN Track
 
+# 🚀 Buildables Fellowship – MERN Track
 
-👤 Fellow Profile
-Attribute	Details
-Name	Hassan Bin Waqar
-Location	Islamabad, Pakistan
-LinkedIn	linkedin.com/in/hassanbinwaqar
+Welcome to my personal **learning journey** through the **Buildables MERN Stack Fellowship**!
+This repository contains my **daily progress**, **projects**, and **code implementations** as I explore **HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more** to become a **Full Stack Developer**.
 
-GitHub	github.com/HassanBinWaqar
+---
 
-Email	hmisb2000@gmail.com
+## 📌 About This Repository
 
-Portfolio	Coming Soon 🚀
-📌 Repository Overview
+This repo serves as my **complete learning log**, documenting every day of my journey:
 
-This repository documents my learning journey, projects, and hands-on exercises during the Buildables MERN Stack Fellowship. It follows professional structure, clean documentation, and best practices.
+* Hands-on practice with **HTML, CSS, and JavaScript**
+* Building **real-world projects** to solidify concepts
+* Learning **frontend frameworks** like **React**
+* Understanding **backend development** with **Node.js & Express**
+* Connecting everything with **MongoDB**
+* Following **best coding practices** and **Git workflows**
 
-buildables-mern-fellowship
-├── day1-html
-│   ├── notes
-│   ├── exercises
-│   └── project
-├── day2-css
-├── day3-css
-├── day4-css-properties  ← 📌 Today’s Focus
-├── assets
-└── README.md
+---
 
+## 🛠 Tech Stack
 
-Structure Explained:
+* **Frontend:** HTML5, CSS3, JavaScript, React.js, TailwindCSS, Bootstrap
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Version Control:** Git & GitHub
+* **Tools:** VS Code, Postman, Vercel, Netlify
 
-📒 Notes → Summarized concepts & references
+---
 
-🧩 Exercises → Hands-on coding practices
+## 📂 Repository Structure
 
-🏗 Projects → Real-world implementations
+```bash
+buildables-fellowship/
+│
+├── Day-01/
+│   ├── 01-basic-html.html
+│   ├── 02-css-intro.html
+│   ├── 03-typography.html
+│   ├── 04-advanced-positioning.html
+│   ├── 05-flexbox-layout.html
+│   ├── 06-grid-dashboard.html
+│
+├── Day-02/
+│   ├── html-css-project/
+│   ├── meta-glasses-website/
+│
+├── Day-03/
+│   ├── advanced-css/
+│   ├── responsive-design/
+│
+├── projects/
+│   ├── netflix-clone/
+│   ├── weather-app/
+│   ├── youtube-clone/
+│   ├── ecommerce-website/
+│
+├── assets/
+│   ├── images/
+│   └── styles/
+│
+├── README.md
+└── LICENSE
+```
 
-📈 Progress → Daily log of learnings & skills
+---
 
-🗓 Progress Log
-Day	Topic	Focus Areas	Project
-1	HTML5 Basics	Semantic HTML, Forms, Accessibility	Personal Profile Page
+## 📅 Daily Learning Logs
 
-2	CSS3 Basics	Box Model, Selectors, Styling, Layouts	Intro Landing Page
+| **Day** | **Topics Covered**                 | **Folder**       | **Status**     |
+| ------- | ---------------------------------- | ---------------- | -------------- |
+| Day 01  | HTML Basics + CSS Intro            | `Day-01`         | ✅ Completed    |
+| Day 02  | Project Setup + Responsive Website | `Day-02`         | ✅ Completed    |
+| Day 03  | Advanced CSS & Flexbox             | `Day-03`         | 🔄 In Progress |
+| Day 04  | JavaScript Fundamentals            | `Day-04`         | ⏳ Upcoming     |
+| Day 05+ | MERN Stack Concepts                | `Day-05` onwards | ⏳ Upcoming     |
 
-3	CSS Transitions & Animations	2D/3D Transforms, Keyframes, Micro-interactions	Interactive UI
+---
 
-4	Advanced CSS Properties	Flexbox, Grid, Glassmorphism, Positioning	UI Components Project
+## 🚀 Live Projects
 
-5	JavaScript Basics	Variables, Functions, Loops, DOM Manipulation	Upcoming
-6	JavaScript ES6+	Arrow Functions, Modules, Destructuring	Upcoming
-🌱 Day 4 — Highlights
-🎯 Topic → CSS Properties — Advanced Styling & Layouts
+| **Project**          | **Live Demo**                                            | **Source Code**                                              |
+| -------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
+| 🌦 Weather App       | [Live Site](https://weather-app-self-two-90.vercel.app/) | [Source Code](https://github.com/HassanBinWaqar/weather-app) |
+| 🎥 Netflix Clone     | Coming Soon                                              | Coming Soon                                                  |
+| 📺 YouTube Clone     | Coming Soon                                              | Coming Soon                                                  |
+| 🛒 Ecommerce Website | Coming Soon                                              | Coming Soon                                                  |
 
-Goal: Build modern, responsive, and production-ready UIs with advanced CSS features.
+---
 
-✅ Key Learnings
-Concept	Description	Use Case
-Advanced Positioning	relative, absolute, sticky, fixed	Creating custom layouts
-Flexbox	1D responsive layout system	Navigation bars, cards, footers
-CSS Grid	2D layout system with minmax()	Dashboards, galleries
-Glassmorphism	Modern frosted-glass effect	Cards, login screens
-Transitions	Smooth animations	Hover effects, micro-interactions
-Responsive Design	Mobile-first approach	Multi-device support
-🎨 Day 4 Project — Modern UI Components
+## 🧩 How to Use
 
-📍 Location: ./day4-css-properties/project
+Clone the repository:
 
-Features Implemented
+```bash
+git clone https://github.com/HassanBinWaqar/buildables-fellowship.git
+```
 
-✅ Glassmorphism Cards
+Navigate into the folder:
 
-✅ Responsive Flexbox Layout
+```bash
+cd buildables-fellowship
+```
 
-✅ CSS Grid Dashboard
+Open any **Day** folder and launch the HTML file:
 
-✅ Hover Animations & Micro-interactions
+```bash
+start 01-basic-html.html
+```
 
-✅ Professional Typography & Color Palettes
+---
 
-📊 Skill Growth Overview
-Skill	Day 1	Day 2	Day 3	Day 4
-HTML5	🟢🟢🟢🟢🟢	🟢🟢🟢🟢🟢	🟢🟢🟢🟢🟢	🟢🟢🟢🟢🟢
-CSS3	🟡🟡	🟢🟢🟢	🟢🟢🟢🟢	🟢🟢🟢🟢🟢
-Flexbox	🔴	🟡🟡	🟢🟢🟢	🟢🟢🟢🟢
-Grid	🔴	🔴	🟡🟡	🟢🟢🟢🟢
-Animations	🔴	🟡🟡	🟢🟢🟢	🟢🟢🟢🟢
-Responsive UI	🔴	🟡🟡	🟢🟢	🟢🟢🟢🟢
-🧠 Pro Tips & Best Practices
+## 🔗 Connect With Me
 
-Use minmax() in CSS Grid for fluid layouts
+* **Portfolio**: \[Coming Soon]
+* **LinkedIn**: [linkedin.com/in/hassanbinwaqar](https://linkedin.com/in/hassanbinwaqar)
+* **GitHub**: [github.com/HassanBinWaqar](https://github.com/HassanBinWaqar)
+* **Email**: [hassan.binnwaqar@protonmail.com](mailto:hassan.binnwaqar@protonmail.com)
 
-Prefer flex: 1 with gap instead of hard-coded widths
+---
 
-Always provide fallback colors for backdrop-filter
+## 🏆 Acknowledgements
 
-Pair transition only with specific properties
-
-Keep modular styles for reusable UI components
-
-🌟 Core Learning Principles
-
-"Code is more about clarity than cleverness."
-
-Clarity First → Write clean, readable, maintainable code
-
-Build in Public → Document your journey openly
-
-Production Mindset → Focus on scalable, reusable components
-
-Consistency Matters → Organized repo, consistent commits, and professional docs
-
-🔗 Useful Links
-
-🌐 GitHub Profile
-
-💼 LinkedIn
-
-📚 Buildables MERN Fellowship
- (placeholder)
-
-🚀 Next Steps
-
- Finalize Day 4 Project Enhancements
-
- Start JavaScript Basics (Day 5)
-
- Set up GitHub Pages Portfolio
-
- Add Dark Mode Toggle to projects
-=======
-# buildables-fellowship
-A repository to track my daily progress in the Buildables MERN Fellowship.
->>>>>>> 7d961e6017e36c86a366e7a60e69e1bff3e120c8
+Special thanks to **Buildables Fellowship** and my mentors **Zohaib Ahmed** and **Hassan Humayue** for their constant guidance and support.
