@@ -1,106 +1,125 @@
 <<<<<<< HEAD
 🚀 Buildables Fellowship — MERN Track
 
-Hello! 👋
-This repository documents my learning journey, exercises, and projects during the Buildables MERN Stack Fellowship.
-I aim to master core MERN concepts, follow industry best practices, and build real-world projects with professional documentation.
 
 👤 Fellow Profile
+Attribute	Details
+Name	Hassan Bin Waqar
+Location	Islamabad, Pakistan
+LinkedIn	linkedin.com/in/hassanbinwaqar
 
-Name: Hassan Bin Waqar
-Location: Islamabad, Pakistan
-LinkedIn: linkedin.com/in/hassanbinwaqar
+GitHub	github.com/HassanBinWaqar
 
-GitHub: github.com/HassanBinWaqar
-Email: hmisb2000@gmail.com
+Email	hmisb2000@gmail.com
 
+Portfolio	Coming Soon 🚀
 📌 Repository Overview
 
-This repository is designed for clarity, scalability, and professionalism:
+This repository documents my learning journey, projects, and hands-on exercises during the Buildables MERN Stack Fellowship. It follows professional structure, clean documentation, and best practices.
 
-📂 buildables-mern-fellowship
- ├── 📁 day1-html
- │    ├── 📁 notes
- │    ├── 📁 exercises
- │    └── 📁 project
- ├── 📁 day2-css
- ├── 📁 day3-css
- ├── 📁 day4-css-properties   ← **Today's Task**
- ├── 📁 assets
- └── README.md
+buildables-mern-fellowship
+├── day1-html
+│   ├── notes
+│   ├── exercises
+│   └── project
+├── day2-css
+├── day3-css
+├── day4-css-properties  ← 📌 Today’s Focus
+├── assets
+└── README.md
 
 
-Notes → Summaries & references
+Structure Explained:
 
-Exercises → Hands-on coding practice
+📒 Notes → Summarized concepts & references
 
-Projects → Real-world implementations
+🧩 Exercises → Hands-on coding practices
 
-Progress → Daily log of learning milestones
+🏗 Projects → Real-world implementations
+
+📈 Progress → Daily log of learnings & skills
 
 🗓 Progress Log
 Day	Topic	Focus Areas	Project
-1	HTML5	Semantic HTML, Forms, Accessibility	Personal Profile Page
+1	HTML5 Basics	Semantic HTML, Forms, Accessibility	Personal Profile Page
 
 2	CSS3 Basics	Box Model, Selectors, Styling, Layouts	Intro Landing Page
 
-3	CSS Transitions & Animations	2D/3D Transforms, Keyframes, Micro-interactions	Interactive Mini UI
+3	CSS Transitions & Animations	2D/3D Transforms, Keyframes, Micro-interactions	Interactive UI
 
-4	CSS Properties (Advanced)	Advanced Positioning, Flexbox, Grid, Glassmorphism	UI Components Project
+4	Advanced CSS Properties	Flexbox, Grid, Glassmorphism, Positioning	UI Components Project
 
 5	JavaScript Basics	Variables, Functions, Loops, DOM Manipulation	Upcoming
-6	JavaScript ES6+	Arrow Functions, Destructuring, Modules	Upcoming
-
-📝 Daily updates will continue as the fellowship progresses.
-
+6	JavaScript ES6+	Arrow Functions, Modules, Destructuring	Upcoming
 🌱 Day 4 — Highlights
 🎯 Topic → CSS Properties — Advanced Styling & Layouts
 
-Goal: Create responsive, interactive, and production-ready UIs with modern CSS techniques.
+Goal: Build modern, responsive, and production-ready UIs with advanced CSS features.
 
 ✅ Key Learnings
-
-Advanced Positioning → Relative, absolute, fixed, sticky layouts
-
-Flexbox Mastery → Fully responsive, adaptive layouts
-
-CSS Grid Dashboard → Scalable admin dashboards
-
-Glassmorphism UI → Modern frosted-glass effects using backdrop-filter
-
-Hover & Transition Effects → Smooth micro-interactions
-
-Responsive Design → Mobile-first layouts with minmax() & media queries
-
+Concept	Description	Use Case
+Advanced Positioning	relative, absolute, sticky, fixed	Creating custom layouts
+Flexbox	1D responsive layout system	Navigation bars, cards, footers
+CSS Grid	2D layout system with minmax()	Dashboards, galleries
+Glassmorphism	Modern frosted-glass effect	Cards, login screens
+Transitions	Smooth animations	Hover effects, micro-interactions
+Responsive Design	Mobile-first approach	Multi-device support
 🎨 Day 4 Project — Modern UI Components
 
-📌 Location: ./day4-css-properties/project
+📍 Location: ./day4-css-properties/project
 
-Features:
+Features Implemented
+
 ✅ Glassmorphism Cards
-✅ Flexbox Responsive Layout
+
+✅ Responsive Flexbox Layout
+
 ✅ CSS Grid Dashboard
+
 ✅ Hover Animations & Micro-interactions
+
 ✅ Professional Typography & Color Palettes
 
+📊 Skill Growth Overview
+Skill	Day 1	Day 2	Day 3	Day 4
+HTML5	🟢🟢🟢🟢🟢	🟢🟢🟢🟢🟢	🟢🟢🟢🟢🟢	🟢🟢🟢🟢🟢
+CSS3	🟡🟡	🟢🟢🟢	🟢🟢🟢🟢	🟢🟢🟢🟢🟢
+Flexbox	🔴	🟡🟡	🟢🟢🟢	🟢🟢🟢🟢
+Grid	🔴	🔴	🟡🟡	🟢🟢🟢🟢
+Animations	🔴	🟡🟡	🟢🟢🟢	🟢🟢🟢🟢
+Responsive UI	🔴	🟡🟡	🟢🟢	🟢🟢🟢🟢
 🧠 Pro Tips & Best Practices
 
-Use minmax() in CSS Grid for fluid layouts.
+Use minmax() in CSS Grid for fluid layouts
 
-Prefer flex: 1 with gap instead of hard-coded widths.
+Prefer flex: 1 with gap instead of hard-coded widths
 
-Always provide fallback colors for backdrop-filter.
+Always provide fallback colors for backdrop-filter
 
-Pair transition only with specific properties for performance.
+Pair transition only with specific properties
 
-Structure your UI components modularly for scalability.
+Keep modular styles for reusable UI components
 
 🌟 Core Learning Principles
 
-🔹 Clarity over Cleverness → Clean, maintainable, and readable code
-🔹 Build in Public → Document progress openly
-🔹 Production Mindset → Writing scalable, reusable components
-🔹 Consistency → Organized repository structure and workflows
+"Code is more about clarity than cleverness."
+
+Clarity First → Write clean, readable, maintainable code
+
+Build in Public → Document your journey openly
+
+Production Mindset → Focus on scalable, reusable components
+
+Consistency Matters → Organized repo, consistent commits, and professional docs
+
+🔗 Useful Links
+
+🌐 GitHub Profile
+
+💼 LinkedIn
+
+📚 Buildables MERN Fellowship
+ (placeholder)
 
 🚀 Next Steps
 
@@ -110,8 +129,7 @@ Structure your UI components modularly for scalability.
 
  Set up GitHub Pages Portfolio
 
- Add Dark Mode Toggle to projects for better UX
-
+ Add Dark Mode Toggle to projects
 =======
 # buildables-fellowship
 A repository to track my daily progress in the Buildables MERN Fellowship.
