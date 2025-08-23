@@ -78,16 +78,6 @@ buildables-fellowship/
 
 ---
 
-## 🚀 Live Projects
-
-| **Project**          | **Live Demo**                                            | **Source Code**                                              |
-| -------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
-| 🌦 Weather App       | [Live Site](https://weather-app-self-two-90.vercel.app/) | [Source Code](https://github.com/HassanBinWaqar/weather-app) |
-| 🎥 Netflix Clone     | Coming Soon                                              | Coming Soon                                                  |
-| 📺 YouTube Clone     | Coming Soon                                              | Coming Soon                                                  |
-| 🛒 Ecommerce Website | Coming Soon                                              | Coming Soon                                                  |
-
----
 
 ## 🧩 How to Use
 
@@ -122,4 +112,4 @@ start 01-basic-html.html
 
 ## 🏆 Acknowledgements
 
-Special thanks to **Buildables Fellowship** and my mentors **Zohaib Ahmed** and **Hassan Humayue** for their constant guidance and support.
+Special thanks to **Buildables Fellowship** and my mentors **Usman Khan** and **Abdul Waheed** for their constant guidance and support.
