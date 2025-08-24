@@ -1,5 +1,4 @@
 
-````md
 # 🚀 Bonus Tips for Git & GitHub
 
 ### 🔹 Tip 1: Undo the Last Commit
@@ -30,5 +29,3 @@ git remote -v
 ```bash
 git pull --rebase origin main
 ```
-
-````
