@@ -1,4 +1,4 @@
-# 02 — Git Commands Cheat Sheet (with examples)
+# 02 — Git Commands Cheat Sheet 
 
 > Keep this close. It’s short, practical, and shows you can *do* Git, not just talk about it.
 

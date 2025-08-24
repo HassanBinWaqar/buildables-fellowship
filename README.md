@@ -1,5 +1,12 @@
 
+---
+
 # 🚀 Buildables Fellowship – MERN Track
+
+![GitHub repo size](https://img.shields.io/github/repo-size/HassanBinWaqar/buildables-fellowship?color=blue\&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/HassanBinWaqar/buildables-fellowship?color=green\&style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/HassanBinWaqar/buildables-fellowship?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/HassanBinWaqar/buildables-fellowship?style=flat-square)
 
 Welcome to my personal **learning journey** through the **Buildables MERN Stack Fellowship**!
 This repository contains my **daily progress**, **projects**, and **code implementations** as I explore **HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more** to become a **Full Stack Developer**.
@@ -34,25 +41,38 @@ This repo serves as my **complete learning log**, documenting every day of my jo
 ```bash
 buildables-mern-fellowship/
 │
-├── Day-1-HTML/
+├── Day-01-HTML/
 │   ├── exercises/
 │   ├── notes/
 │   └── project/
 │
-├── Day-2-CSS/
+├── Day-02-CSS/
 │   ├── exercises/
 │   ├── notes/
 │   └── project/
 │
-├── Day-3-CSS/
+├── Day-03-CSS/
 │   ├── exercises/
 │   ├── notes/
 │   └── project/
 │
-├── Day-4-CSS/
+├── Day-04-JavaScript/
 │   ├── exercises/
 │   ├── notes/
 │   └── project/
+│
+├── Day-05-Basics-of-Git-and-GitHub/
+│   ├── 01-Git-Notes.md
+│   ├── 02-Basic-Git-Commands.md
+│   ├── 03-GitHub-Setup-Steps.md
+│   ├── 04-GitHub-Tasks.md
+│   ├── 05-Practice-Screenshots/
+│   │    ├── git-init.png
+│   │    ├── git-commit.png
+│   │    ├── git-push.png
+│   │    └── repo-structure.png
+│   ├── 06-README.md
+│   └── 07-Bonus-Tips.md
 │
 ├── assets/
 │   ├── images/
@@ -61,23 +81,22 @@ buildables-mern-fellowship/
 │
 ├── README.md
 └── LICENSE
-
 ```
 
 ---
 
 ## 📅 Daily Learning Logs
 
-| **Day** | **Topics Covered**                 | **Folder**       | **Status**     |
-| ------- | ---------------------------------- | ---------------- | -------------- |
-| Day 01  | HTML Basics + CSS Intro            | `Day-01`         | ✅ Completed    |
-| Day 02  | Project Setup + Responsive Website | `Day-02`         | ✅ Completed    |
-| Day 03  | Advanced CSS & Flexbox             | `Day-03`         | 🔄 In Progress |
-| Day 04  | JavaScript Fundamentals            | `Day-04`         | ⏳ Upcoming     |
-| Day 05+ | MERN Stack Concepts                | `Day-05` onwards | ⏳ Upcoming     |
+| **Day**    | **Topics Covered**                        | **Folder**                        | **Status**     |
+| ---------- | ----------------------------------------- | --------------------------------- | -------------- |
+| Day 01     | HTML Basics + CSS Intro                   | `Day-01-HTML`                     | ✅ Completed    |
+| Day 02     | Project Setup + Responsive Website        | `Day-02-CSS`                      | ✅ Completed    |
+| Day 03     | Advanced CSS + Flexbox                    | `Day-03-CSS`                      | ✅ Completed    |
+| Day 04     | JavaScript Fundamentals                   | `Day-04-JavaScript`               | 🔄 In Progress |
+| **Day 05** | **Git & GitHub Basics + Version Control** | `Day-05-Basics-of-Git-and-GitHub` | ✅ Completed    |
+| Day 06+    | JavaScript Advanced + MERN Concepts       | `Day-06` onwards                  | ⏳ Upcoming     |
 
 ---
-
 
 ## 🧩 How to Use
 
@@ -96,7 +115,7 @@ cd buildables-fellowship
 Open any **Day** folder and launch the HTML file:
 
 ```bash
-start 01-basic-html.html
+start index.html
 ```
 
 ---
@@ -113,3 +132,6 @@ start 01-basic-html.html
 ## 🏆 Acknowledgements
 
 Special thanks to **Buildables Fellowship** and my mentors **Usman Khan** and **Abdul Waheed** for their constant guidance and support.
+
+---
+
