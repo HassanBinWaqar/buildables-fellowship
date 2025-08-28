@@ -55,7 +55,7 @@ Week-02/
 │── Project/
 │   └── Agency-Landing-Page/   # Professional landing page using Grid + Flex
 └── assets/
-└── images/                # Store all project-related images here
+└── images/               
 
 ````
 
