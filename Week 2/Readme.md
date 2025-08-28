@@ -70,22 +70,6 @@ To meet this week’s standards, ensure the following:
   git commit -m "Week 02: Grid & Flex — project, exercises, notes"
 ````
 
-Got it, Hassan 🙂
-
-The reason your section **doesn’t look proper** on GitHub is due to **Markdown formatting issues**.
-Specifically:
-
-1. There’s **no blank line** between some headings and content.
-2. Some bullet points are missing proper spacing.
-3. Windows CRLF line endings might be breaking the Markdown rendering.
-
-Also, since you want me to **remove the GitHub Pages deployment part**, I’ll clean up the formatting and rewrite the entire section so it looks **professional on GitHub**.
-
-Here’s the **fixed and optimized Markdown**:
-
-```md
----
-
 ## 📚 Resources & References
 
 * [📘 CSS Grid Guide — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
@@ -114,10 +98,5 @@ By the end of **Week 02**, you’ll have:
 **👤 Author:** [Hassan Bin Waqar](https://github.com/Hassan-Bin-Waqar)  
 **📚 Fellowship:** [Buildables MERN Track](https://github.com/Hassan-Bin-Waqar/buildables-mern-fellowship)
 
----
-```
-
-
----
 
 
