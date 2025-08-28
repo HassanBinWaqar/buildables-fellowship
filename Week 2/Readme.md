@@ -129,6 +129,5 @@ By the end of **Week 02**, you’ll have:
 [![Fellowship](https://img.shields.io/badge/Fellowship-Buildables%20MERN%20Track-blue?style=for-the-badge)](https://github.com/Hassan-Bin-Waqar/buildables-mern-fellowship)
 
 ---
-````
 
 
