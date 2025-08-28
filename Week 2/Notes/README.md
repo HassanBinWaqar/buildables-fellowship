@@ -1,5 +1,5 @@
 
-# 📝 Notes — CSS Grid & Flexbox (Pro)
+# 📝 Notes — CSS Grid & Flexbox 
 
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![Level](https://img.shields.io/badge/Level-Intermediate-blue?style=for-the-badge)
