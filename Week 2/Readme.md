@@ -63,14 +63,14 @@ Week-02/
 
 ## 🔎 What’s Included
 
-- **Notes/README.md** → Pro notes + cheat sheets for **CSS Grid & Flexbox**.
+- **Notes/README.md** →  notes + cheat sheets for **CSS Grid & Flexbox**.
 - **Exercises/** → Six **hands-on**, production-ready exercises.
 - **Project/Agency-Landing-Page/** → A **professional landing page** using Grid + Flex.
 - **Assets/** → Organized folder for storing images & static files.
 
 ---
 
-## ✅ Acceptance Criteria (Pro Level)
+## ✅ Acceptance Criteria
 
 To meet this week’s standards, ensure the following:
 
