@@ -70,18 +70,6 @@ To meet this week’s standards, ensure the following:
   git commit -m "Week 02: Grid & Flex — project, exercises, notes"
 ````
 
-### 2. Deploy on GitHub Pages *(Optional)*
-
-If you want a live demo:
-
-* Go to **Project → Settings → Pages**.
-* Set the **branch** to `main` and **folder** to `/Project/Agency-Landing-Page`.
-* Save and wait for GitHub to generate a link.
-
-### 3. Share Your Live Demo URL
-
-Share your deployed link for review & feedback.
-
 ---
 
 ## 📚 Resources & References
@@ -98,18 +86,18 @@ Share your deployed link for review & feedback.
 
 By the end of **Week 02**, you’ll have:
 
-✅ A **professional landing page** built using **CSS Grid + Flexbox**
-✅ A solid grasp of **responsive layouts**
-✅ Reusable **patterns** to speed up future projects
+* ✅ A **professional landing page** built using **CSS Grid + Flexbox**  
+* ✅ A solid grasp of **responsive layouts**  
+* ✅ Reusable **patterns** to speed up future projects  
 
 ---
 
-> **“Code is like humor. When you have to explain it, it’s bad.”**
+> **“Code is like humor. When you have to explain it, it’s bad.”**  
 > — *Cory House*
 
 ---
 
-**👤 Author:** [Hassan Bin Waqar](https://github.com/Hassan-Bin-Waqar)
+**👤 Author:** [Hassan Bin Waqar](https://github.com/Hassan-Bin-Waqar)  
 **📚 Fellowship:** [Buildables MERN Track](https://github.com/Hassan-Bin-Waqar/buildables-mern-fellowship)
 
 ---
