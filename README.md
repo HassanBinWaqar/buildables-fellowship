@@ -86,7 +86,7 @@ buildables-fellowship/
 
 ---
 
-### **📦 Week 02 — CSS Grid, Flexbox & Responsive Layouts** 🔥 *(Updated)*
+### **📦 Week 02 — CSS Grid, Flexbox & Responsive Layouts** 🔥
 
 <details open>
 <summary>Click to Expand</summary>
@@ -110,7 +110,7 @@ buildables-fellowship/
 
 ---
 
-### **✅ Week 02 Acceptance Criteria (Pro Level)**
+### **✅ Week 02 Acceptance Criteria**
 
 * **Layout & Responsiveness** → Mobile-first, scalable breakpoints
 * **Grid for structure** → Macro layouts
