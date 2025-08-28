@@ -70,10 +70,6 @@ To meet this week’s standards, ensure the following:
   git commit -m "Week 02: Grid & Flex — project, exercises, notes"
 ````
 
----
-
-
-
 ### 2. Deploy on GitHub Pages *(Optional)*
 
 If you want a live demo:
@@ -115,9 +111,5 @@ By the end of **Week 02**, you’ll have:
 
 **👤 Author:** [Hassan Bin Waqar](https://github.com/Hassan-Bin-Waqar)
 **📚 Fellowship:** [Buildables MERN Track](https://github.com/Hassan-Bin-Waqar/buildables-mern-fellowship)
-
----
-
-```
 
 ---
