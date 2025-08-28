@@ -1,17 +1,3 @@
-Alright Hassan 🙂
-I’ll **upgrade your README.md** further by adding **dynamic GitHub badges** that automatically update for:
-
-* ✅ Latest commit
-* ⭐ Stars
-* 🍴 Forks
-* 🛠 Issues
-* 🔄 Pull requests
-* 👀 Visitors count
-* 🕒 Last activity
-
-I’ll also make the **layout cleaner** and **more professional** while keeping the collapsible sections for weeks.
-
-Here’s the **final improved README.md**:
 
 ---
 
