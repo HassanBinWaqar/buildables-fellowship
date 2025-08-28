@@ -44,36 +44,61 @@ This repository serves as my **complete learning log**, documenting every day of
 ## 📂 Repository Structure
 
 ```bash
-buildables-mern-fellowship/
+buildables-fellowship/
 │
-├── Week-01/
-│   ├── Day-01-HTML/
-│   ├── Day-02-CSS/
-│   ├── Day-03-CSS/
-│   ├── Day-04-JavaScript/
-│   └── Day-05-Basics-of-Git-and-GitHub/
+├── Day-01/
+│   ├── 01-basic-html.html
+│   ├── 02-css-intro.html
+│   ├── 03-typography.html
+│   ├── 04-advanced-positioning.html
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   └── README.md
 │
-├── Week-02/
-│   ├── Day-06/
-│   ├── Day-07/
-│   ├── Day-08/
-│   ├── Day-09/
-│   └── Day-10/
+├── Day-02/
+│   ├── 01-css-selectors.html
+│   ├── 02-css-box-model.html
+│   ├── 03-css-flexbox.html
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   └── README.md
 │
-├── Week-03/
-│   ├── Day-11/
-│   ├── Day-12/
-│   ├── Day-13/
-│   ├── Day-14/
-│   └── Day-15/
+├── Day-03/
+│   ├── 01-css-grid.html
+│   ├── 02-css-transforms.html
+│   ├── 03-css-transitions.html
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   └── README.md
 │
-├── assets/
-│   ├── images/
-│   ├── styles/
-│   └── fonts/
+├── Day-04/
+│   ├── 01-bootstrap-intro.html
+│   ├── 02-bootstrap-grid.html
+│   ├── 03-bootstrap-components.html
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   └── README.md
 │
-├── README.md
-└── LICENSE
+├── projects/
+│   ├── project-01/
+│   │   ├── index.html
+│   │   ├── assets/
+│   │   │   ├── images/
+│   │   │   └── styles/
+│   │   └── README.md
+│   ├── project-02/
+│   │   ├── index.html
+│   │   ├── assets/
+│   │   │   ├── images/
+│   │   │   └── styles/
+│   │   └── README.md
+│
+└── README.md
+
 ```
 
 ---
