@@ -70,32 +70,6 @@ To meet this week’s standards, ensure the following:
   git commit -m "Week 02: Grid & Flex — project, exercises, notes"
 ````
 
----
-
-## 🚀 Submission Guidelines
-
-### 1. Push Your `Week-02` Folder
-
-```bash
-git add .
-git commit -m "Week 02: Final Submission"
-git push origin main
-````
-
-### 2. Deploy on GitHub Pages *(Optional)*
-
-If you want a live demo:
-
-* Go to **Project → Settings → Pages**.
-* Set the **branch** to `main` and **folder** to `/Project/Agency-Landing-Page`.
-* Save and wait for GitHub to generate a link.
-
-### 3. Share Your Live Demo URL
-
-Share your deployed link for review & feedback.
-
----
-
 ## 📚 Resources & References
 
 * [📘 CSS Grid Guide — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
