@@ -74,15 +74,25 @@ To meet this week’s standards, ensure the following:
 
 ## 🚀 Submission Guidelines
 
-1. Push your `Week-02` folder to your GitHub repository:
+### 1. Push Your `Week-02` Folder
 
-   ```bash
-   git add .
-   git commit -m "Week 02: Final Submission"
-   git push origin main
-   ```
-2. *(Optional)* Deploy **Project/Agency-Landing-Page** on **GitHub Pages**.
-3. Share your **live demo URL** for review & feedback.
+```bash
+git add .
+git commit -m "Week 02: Final Submission"
+git push origin main
+````
+
+### 2. Deploy on GitHub Pages *(Optional)*
+
+If you want a live demo:
+
+* Go to **Project → Settings → Pages**.
+* Set the **branch** to `main` and **folder** to `/Project/Agency-Landing-Page`.
+* Save and wait for GitHub to generate a link.
+
+### 3. Share Your Live Demo URL
+
+Share your deployed link for review & feedback.
 
 ---
 
@@ -90,9 +100,9 @@ To meet this week’s standards, ensure the following:
 
 * [📘 CSS Grid Guide — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 * [📘 Flexbox Guide — MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-* [🎨 CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-* [🔥 A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* [🔥 A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [🎨 CSS Variables — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+* [🔥 Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [🔥 Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ---
 
@@ -100,9 +110,9 @@ To meet this week’s standards, ensure the following:
 
 By the end of **Week 02**, you’ll have:
 
-* ✅ A **professional landing page** built using Grid + Flexbox.
-* ✅ A strong grasp of **responsive layouts**.
-* ✅ Reusable patterns to speed up future projects.
+✅ A **professional landing page** built using **CSS Grid + Flexbox**
+✅ A solid grasp of **responsive layouts**
+✅ Reusable **patterns** to speed up future projects
 
 ---
 
@@ -111,10 +121,11 @@ By the end of **Week 02**, you’ll have:
 
 ---
 
-**Author:** [Hassan Bin Waqar](https://github.com/Hassan-Bin-Waqar)
-**Fellowship:** [Buildables MERN Track](https://github.com/Hassan-Bin-Waqar/buildables-mern-fellowship)
+**👤 Author:** [Hassan Bin Waqar](https://github.com/Hassan-Bin-Waqar)
+**📚 Fellowship:** [Buildables MERN Track](https://github.com/Hassan-Bin-Waqar/buildables-mern-fellowship)
 
 ---
 
+```
 
-
+---
