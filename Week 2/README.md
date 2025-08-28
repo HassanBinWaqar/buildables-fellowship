@@ -53,7 +53,7 @@ Week-02/
 
 ---
 
-## ✅ Acceptance Criteria (Pro Level)
+## ✅ Acceptance Criteria
 
 ### 🖥️ Layout & Responsiveness
 
