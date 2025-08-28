@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agency — Modern Web Experiences</title>
+  <meta name="description" content="A modern, accessible, responsive landing page demonstrating CSS Grid and Flexbox at a professional level.">
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="layout">
+    <header class="hdr" role="banner">
+      <nav class="nav" aria-label="Primary navigation">
+        <div class="brand">Agency<span>Pro</span></div>
+        <button class="burger" aria-expanded="false" aria-controls="primary-links" aria-label="Open menu">☰</button>
+        <ul id="primary-links" class="links" role="menu">
+          <li role="none"><a role="menuitem" href="#work">Work</a></li>
+          <li role="none"><a role="menuitem" href="#services">Services</a></li>
+          <li role="none"><a role="menuitem" href="#reviews">Reviews</a></li>
+          <li role="none"><a class="btn" role="menuitem" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="copy">
+          <h1 id="hero-title">Design. Build. Launch.</h1>
+          <p>We craft performant, accessible web experiences that scale.</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Start a project</a>
+            <a class="btn ghost" href="#work">See our work</a>
+          </div>
+        </div>
+        <div class="visual" role="img" aria-label="Abstract product mockup">
+          <img src="https://images.pexels.com/photos/15505437/pexels-photo-15505437.jpeg" alt="";">
+        </div>
+      </section>
+    </header>
+
+    <main id="main" class="main" role="main">
+
+      <section id="work" class="showcase" aria-labelledby="work-title">
+        <h2 id="work-title">Selected Work</h2>
+        <div class="grid">
+          <article class="tile wide" aria-hidden="false"><h3>FinTech Dashboard</h3><p>Grid + Flex micro-interactions.</p></article>
+          <article class="tile tall"><h3>Healthcare Portal</h3><p>AA contrast + forms.</p></article>
+          <article class="tile"><h3>Agency Site</h3><p>Static-first, dynamic-ready.</p></article>
+          <article class="tile"><h3>Commerce UX</h3><p>Checkout clarity.</p></article>
+        </div>
+      </section>
+
+      <section id="services" class="services" aria-labelledby="services-title">
+        <h2 id="services-title">Services</h2>
+        <div class="cards">
+          <article class="card"><h3>UX & Strategy</h3><p>Discovery, IA, flows, prototypes.</p></article>
+          <article class="card"><h3>UI Engineering</h3><p>Design systems, accessible components.</p></article>
+          <article class="card"><h3>Performance</h3><p>Core Web Vitals & DX optimization.</p></article>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews" aria-labelledby="reviews-title">
+        <h2 id="reviews-title">Client Reviews</h2>
+        <div class="quotes">
+          <blockquote class="quote"><p>“On time, on budget, and delightful to ship with.”</p><footer>— Product Lead, SaaS</footer></blockquote>
+          <blockquote class="quote"><p>“Their layouts are clean, accessible, and fast.”</p><footer>— CTO, HealthTech</footer></blockquote>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Let’s talk</h2>
+        <form class="form" action="#" method="post" novalidate>
+          <label>
+            <span class="label-text">Name</span>
+            <input required name="name" autocomplete="name" placeholder="Your name" />
+          </label>
+
+          <label>
+            <span class="label-text">Email</span>
+            <input required type="email" name="email" autocomplete="email" placeholder="you@company.com" />
+          </label>
+
+          <label class="full">
+            <span class="label-text">Project Brief</span>
+            <textarea name="brief" rows="4" placeholder="Tell us about your project"></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="ftr" role="contentinfo">
+      <div class="foot">
+        <div>© <span id="year"></span> AgencyPro</div>
+        <ul class="foot-links" role="list">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Toggle mobile menu
+    const burger = document.querySelector('.burger');
+    const links = document.querySelector('.links');
+    burger.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', !expanded);
+      links.style.display = expanded ? '' : 'flex';
+    });
+    // Keep simple: hide on resize to desktop widths
+    window.addEventListener('resize', () => {
+      if(window.innerWidth > 760) links.style.display = '';
+    });
+  </script>
+</body>
+</html>

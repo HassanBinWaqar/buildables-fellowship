@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>01 — Responsive Flex Navbar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-nav" role="banner">
+    <div class="nav-inner">
+      <div class="brand">Buildables</div>
+      <button class="burger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+      <nav id="nav-links" class="nav-links" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Roadmap</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a class="btn" href="#">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container" role="main">
+    <h1>Responsive Flex Navbar</h1>
+    <p>Resize the viewport to see the nav reflow and wrap. The navbar is built with accessible patterns and a mobile-first approach.</p>
+  </main>
+
+  <script>
+    // Simple accessible toggle for the example
+    const burger = document.querySelector('.burger');
+    const nav = document.getElementById('nav-links');
+    burger.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', !expanded);
+      nav.style.display = expanded ? '' : 'block';
+    });
+  </script>
+</body>
+</html>
