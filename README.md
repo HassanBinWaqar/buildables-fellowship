@@ -44,10 +44,10 @@ This repository is a **complete learning journal**, tracking my daily progress:
 buildables-fellowship/
 │
 ├── Week-01/                # HTML, CSS, JS Basics, Git & GitHub
-├── Week-02/                # Advanced Layouts, Grid + Flexbox, Project
+├── Week-02/                # CSS Grid, Flexbox, Responsive Layouts + Project
 │   ├── Notes/              # In-depth notes + cheat sheets
 │   ├── Exercises/          # Hands-on layout exercises
-│   ├── Project/            # Agency Landing Page (Grid + Flexbox)
+│   ├── Project/            # Responsive Blog Project + Landing Page
 │   └── assets/             # Images, icons, static files
 ├── Week-03/                # React Fundamentals (Upcoming)
 └── README.md
@@ -79,7 +79,7 @@ buildables-fellowship/
 | 01      | HTML Basics + CSS Intro            | `Week-01/Day-01` | ✅ Completed |
 | 02      | Project Setup + Responsive Website | `Week-01/Day-02` | ✅ Completed |
 | 03      | Advanced CSS + Flexbox             | `Week-01/Day-03` | ✅ Completed |
-| 04      | JavaScript Fundamentals            | `Week-01/Day-04` | ✅ Completed |
+| 04      | JavaScript Fundamentals            | `Week-01/Day-04` | ⏳ Upcoming |
 | 05      | Git & GitHub Workflow              | `Week-01/Day-05` | ✅ Completed |
 
 </details>
@@ -91,50 +91,59 @@ buildables-fellowship/
 <details open>
 <summary>Click to Expand</summary>
 
-| **Day** | **Topics Covered**                | **Folder**        | **Status**     |
-| ------- | --------------------------------- | ----------------- | -------------- |
-| 06      | CSS Grid Fundamentals             | `Week-02/Day-06`  | ✅ Completed    |
-| 07      | Flexbox Deep Dive                 | `Week-02/Day-07`  | ✅ Completed    |
-| 08      | Combining Grid + Flex Patterns    | `Week-02/Day-08`  | 🔄 In Progress |
-| 09      | Responsive Design + Media Queries | `Week-02/Day-09`  | 🔄 In Progress |
-| 10      | **Project** — Agency Landing Page | `Week-02/Project` | ⏳ Upcoming     |
+| **Day** | **Topics Covered**                     | **Folder**        | **Status**     |
+| ------- | -------------------------------------- | ----------------- | -------------- |
+| 06      | CSS Grid Fundamentals                  | `Week-02/Day-06`  | ✅ Completed    |
+| 07      | Flexbox Deep Dive                      | `Week-02/Day-07`  | ✅ Completed    |
+| 08      | Combining Grid + Flex Patterns         | `Week-02/Day-08`  | 🔄 In Progress |
+| **09**  | **Responsive Website + Media Queries** | `Week-02/Day-09`  | ✅ Completed    |
+| 10      | **Project** — Responsive Blog Website  | `Week-02/Project` | ⏳ Upcoming     |
 
 ---
 
 ### **📂 Week 02 Contents**
 
-* **Notes/** → Pro-level cheat sheets for **Grid** + **Flexbox**
-* **Exercises/** → Six production-ready responsive layout challenges
-* **Project/** → Professional **Agency Landing Page**
+* **Notes/** → Pro-level cheat sheets for **Grid** + **Flexbox** + **Media Queries**
+* **Exercises/** → 6 production-ready responsive layout challenges
+* **Project/** → Responsive **Blog Website** + Agency Landing Page
 * **assets/** → Centralized assets for images & static files
+
+---
+
+### **🎯 Week 02 — Day 2: Responsive Website**
+
+**🔔 Key Learnings:**
+
+* Mobile-first design & scaling layouts
+* Creating flexible grids and containers
+* Using `media queries` for breakpoints
+* Making images & typography fully responsive
+* Accessibility best practices
+
+**📺 Resource:** [Responsive Website Tutorial](https://youtu.be/ZYV6dYtz4HA?si=8Z9phBeEnA0OHLLz)
+
+**📝 Exercises:**
+
+* `01-responsive-utilities/` → Layout helpers
+* `02-media-queries/` → Content-out breakpoints
+* `03-fluid-typography/` → Using `clamp()`
+* `04-responsive-grid/` → Auto-fit & minmax
+* `05-responsive-navbar/` → Accessible burger menu
+* `06-responsive-cards/` → Cards with Grid + Flex
+
+**🎨 Project:**
+
+* **Responsive Blog Website** — Multi-page responsive site with **flexible layouts**, **semantic HTML**, and **accessible navigation**.
 
 ---
 
 ### **✅ Week 02 Acceptance Criteria**
 
-* **Layout & Responsiveness** → Mobile-first, scalable breakpoints
-* **Grid for structure** → Macro layouts
-* **Flexbox for components** → Micro layouts
-* **CSS Variables** → Reusable colors, spacing, typography
-* **Accessibility** → Semantic HTML, ARIA attributes, skip links
-* **Code Quality** → Modular, clean, and documented
-
-</details>
-
----
-
-### **📦 Week 03 — React Fundamentals**
-
-<details>
-<summary>Click to Expand</summary>
-
-| **Day** | **Topics Covered**       | **Folder**       | **Status** |
-| ------- | ------------------------ | ---------------- | ---------- |
-| 11      | React Basics + JSX       | `Week-03/Day-11` | ⏳ Upcoming |
-| 12      | React Components         | `Week-03/Day-12` | ⏳ Upcoming |
-| 13      | Props & State Management | `Week-03/Day-13` | ⏳ Upcoming |
-| 14      | React Hooks Introduction | `Week-03/Day-14` | ⏳ Upcoming |
-| 15      | React Project Setup      | `Week-03/Day-15` | ⏳ Upcoming |
+* **Mobile-first responsive design**
+* **Grid for structure**, **Flexbox for components**
+* **Reusable CSS variables** for theme consistency
+* **Semantic HTML + ARIA** for accessibility
+* **Clean, documented, modular code**
 
 </details>
 
@@ -147,6 +156,7 @@ buildables-fellowship/
 * [🎨 CSS Variables — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 * [🔥 Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [🔥 Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [📺 Responsive Website Tutorial](https://youtu.be/ZYV6dYtz4HA?si=8Z9phBeEnA0OHLLz)
 
 ---
 
@@ -164,3 +174,4 @@ buildables-fellowship/
 Thanks to **Buildables Fellowship** and mentors **Usman Khan** & **Abdul Waheed** for guidance and support.
 
 ---
+
