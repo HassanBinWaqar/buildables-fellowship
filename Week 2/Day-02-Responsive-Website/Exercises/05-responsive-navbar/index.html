@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>05 — Responsive Navbar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav">
+    <div class="brand">Buildables</div>
+    <button class="burger" aria-expanded="false" aria-controls="links" aria-label="Toggle menu">☰</button>
+    <nav id="links" class="links" aria-label="Primary">
+      <a href="#">Docs</a>
+      <a href="#">Roadmap</a>
+      <a href="#">Community</a>
+      <a class="btn" href="#">Login</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap">
+    <h1>Responsive Navbar</h1>
+    <p>Mobile-first, accessible, and minimal JS toggle.</p>
+  </main>
+  <script>
+    const burger = document.querySelector('.burger');
+    const links = document.getElementById('links');
+    burger.addEventListener('click', () => {
+      const open = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!open));
+      links.style.display = open ? '' : 'flex';
+    });
+    addEventListener('resize', ()=>{ if(innerWidth>760) links.style.display='' });
+  </script>
+</body>
+</html>

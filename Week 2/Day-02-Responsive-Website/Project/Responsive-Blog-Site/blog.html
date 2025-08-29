@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Responsive Blog — Articles</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">DevNotes</a>
+      <button class="burger" aria-expanded="false" aria-controls="primary-links" aria-label="Toggle menu">☰</button>
+      <ul id="primary-links" class="links" role="menu">
+        <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+        <li role="none"><a role="menuitem" href="blog.html">Blog</a></li>
+        <li role="none"><a role="menuitem" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="main">
+    <header class="page-head"><h1>Articles</h1></header>
+    <section class="posts">
+      <article class="post">
+        <h2><a href="#">Fluid Type with clamp()</a></h2>
+        <p class="meta">5 min • CSS</p>
+        <p>Use clamp() to scale typography effortlessly across devices.</p>
+      </article>
+      <article class="post">
+        <h2><a href="#">Grid + Flex: Best of Both</a></h2>
+        <p class="meta">7 min • Layout</p>
+        <p>Shell via CSS Grid, components via Flex — clean separation of concerns.</p>
+      </article>
+      <article class="post">
+        <h2><a href="#">Content-First Breakpoints</a></h2>
+        <p class="meta">4 min • RWD</p>
+        <p>Break where your design breaks, not at arbitrary device widths.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="ftr">
+    <div class="foot">
+      <small>© <span id="year"></span> DevNotes</small>
+      <ul class="foot-links" role="list">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const burger = document.querySelector('.burger');
+    const links = document.querySelector('.links');
+    burger.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', !expanded);
+      links.style.display = expanded ? '' : 'flex';
+    });
+    addEventListener('resize', ()=>{ if(innerWidth>760) links.style.display='' });
+  </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Responsive Blog — Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">DevNotes</a>
+      <button class="burger" aria-expanded="false" aria-controls="primary-links" aria-label="Toggle menu">☰</button>
+      <ul id="primary-links" class="links" role="menu">
+        <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+        <li role="none"><a role="menuitem" href="blog.html">Blog</a></li>
+        <li role="none"><a role="menuitem" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="main">
+    <header class="page-head"><h1>Contact</h1></header>
+    <form class="form" action="#" method="post" novalidate>
+      <label>
+        <span class="label-text">Name</span>
+        <input name="name" autocomplete="name" required placeholder="Your name">
+      </label>
+      <label>
+        <span class="label-text">Email</span>
+        <input type="email" name="email" autocomplete="email" required placeholder="you@company.com">
+      </label>
+      <label class="full">
+        <span class="label-text">Message</span>
+        <textarea name="message" rows="5" placeholder="How can we help?"></textarea>
+      </label>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer class="ftr">
+    <div class="foot">
+      <small>© <span id="year"></span> DevNotes</small>
+      <ul class="foot-links" role="list">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const burger = document.querySelector('.burger');
+    const links = document.querySelector('.links');
+    burger.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', !expanded);
+      links.style.display = expanded ? '' : 'flex';
+    });
+    addEventListener('resize', ()=>{ if(innerWidth>760) links.style.display='' });
+  </script>
+</body>
+</html>

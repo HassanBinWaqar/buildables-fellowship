@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Responsive Blog — Home</title>
+  <meta name="description" content="Responsive multi-page site demonstrating professional responsive techniques.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">DevNotes</a>
+      <button class="burger" aria-expanded="false" aria-controls="primary-links" aria-label="Toggle menu">☰</button>
+      <ul id="primary-links" class="links" role="menu">
+        <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+        <li role="none"><a role="menuitem" href="blog.html">Blog</a></li>
+        <li role="none"><a role="menuitem" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="copy">
+        <h1>Modern Web, Responsively</h1>
+        <p>Fluid type, adaptive grids, content-first breakpoints.</p>
+        <a class="btn" href="blog.html">Read the Blog</a>
+      </div>
+      <div class="visual" role="img" aria-label="Abstract gradients"></div>
+    </section>
+  </header>
+
+  <main id="main" class="main">
+    <section class="cards" aria-label="Highlights">
+      <article class="card"><h3>Accessibility</h3><p>Skip links, focus states, semantics.</p></article>
+      <article class="card"><h3>Performance</h3><p>Lean CSS, minimal JS, responsive images.</p></article>
+      <article class="card"><h3>Patterns</h3><p>Grid shell, Flex components.</p></article>
+    </section>
+  </main>
+
+  <footer class="ftr">
+    <div class="foot">
+      <small>© <span id="year"></span> DevNotes</small>
+      <ul class="foot-links" role="list">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const burger = document.querySelector('.burger');
+    const links = document.querySelector('.links');
+    burger.addEventListener('click', () => {
+      const expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', !expanded);
+      links.style.display = expanded ? '' : 'flex';
+    });
+    addEventListener('resize', ()=>{ if(innerWidth>760) links.style.display='' });
+  </script>
+</body>
+</html>
