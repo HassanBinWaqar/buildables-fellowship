@@ -97,7 +97,7 @@ buildables-fellowship/
 | 07      | Flexbox Deep Dive                      | `Week-02/Day-07`  | ✅ Completed    |
 | 08      | Combining Grid + Flex Patterns         | `Week-02/Day-08`  | 🔄 In Progress |
 | **09**  | **Responsive Website + Media Queries** | `Week-02/Day-09`  | ✅ Completed    |
-| 10      | **Project** — Responsive Blog Website  | `Week-02/Project` | ⏳ Upcoming     |
+| 10      | **Project** — Responsive PortFolio Website  | `Week-02/Project` | ✅ Completed |
 
 ---
 

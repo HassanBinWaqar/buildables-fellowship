@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hassan Bin Waqar — Developer Portfolio</title>
+  <meta name="description" content="Front-End / MERN Stack developer. I build fast, accessible, and responsive web apps." />
+  <meta name="author" content="Hassan Bin Waqar" />
+  <link rel="icon" href="assets/icons8-portfolio-64.png" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hassan Bin Waqar — Developer Portfolio" />
+  <meta property="og:description" content="Front-End / MERN Stack developer. I build fast, accessible, and responsive web apps." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0f172a" />
+<link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+  <!-- ============ Header / Nav ============ -->
+  <header class="site-header">
+    <div class="container nav" aria-label="Primary">
+      <a class="brand" href="#home">
+        <span class="logo" aria-hidden="true">HBW</span>
+        <span>Hassan Bin Waqar</span>
+      </a>
+
+      <nav>
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryMenu" aria-label="Toggle navigation">☰</button>
+        <ul id="primaryMenu" role="menubar">
+          <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+          <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+          <li role="none"><a role="menuitem" href="#about">About</a></li>
+          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark / light">🌙</button>
+        <a class="btn ghost" href="assets/Hassan-Bin-Waqar-CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Floating theme button for mobile -->
+  <button id="themeFab" class="theme-fab" aria-label="Toggle theme">🌙</button>
+
+  <!-- ============ Hero ============ -->
+  <main id="home" class="hero">
+    <div class="container content">
+      <section>
+        <p class="eyebrow">MERN • Front-End • UI</p>
+        <h1>Building delightful, fast, and accessible web experiences.</h1>
+        <p class="lead">I’m Hassan, a developer focused on responsive UI, performance, and clean code. I turn ideas into polished, production-ready interfaces using HTML, CSS, JavaScript, and React.</p>
+        <div class="cta">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn ghost">Let’s Work Together</a>
+        </div>
+      </section>
+      <aside class="portrait" role="img" aria-label="Portrait of Hassan"></aside>
+    </div>
+  </main>
+
+  <!-- ============ Projects ============ -->
+  <section id="projects" aria-labelledby="projectsTitle">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projectsTitle" class="section-title">Projects</h2>
+        </div>
+        <a class="btn ghost" href="https://github.com/HassanBinWaqar" target="_blank" rel="noreferrer noopener">All Repos ↗</a>
+      </header>
+
+      <div class="grid projects">
+        <!-- Card 1 -->
+        <article class="card span-6">
+          <div class="card-media">
+            <img src="assets/images/weather-app-self-two-90.vercel.app_.png" alt="Screenshot of Weather App UI" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Weather App</h3>
+            <p class="muted">Real-time weather with geolocation, offline cache, and smooth UI transitions.</p>
+            <div class="chipset">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">API</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn ghost" href="https://weather-app-self-two-90.vercel.app/" target="_blank" rel="noreferrer noopener">Live</a>
+            <a class="btn" href="https://github.com/HassanBinWaqar/Weather-App" target="_blank" rel="noreferrer noopener">Code</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card span-6">
+          <div class="card-media">
+            <img src="assets/images/Netflix.png" alt="Screenshot of Netflix Clone Landing Page" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Netflix Clone</h3>
+            <p class="muted">Responsive clone focusing on layout, accessibility, and interactive UI patterns.</p>
+            <div class="chipset">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Grid</span><span class="chip">Flexbox</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn ghost" href="https://youtube-clone-html-css-volj.vercel.app/" target="_blank" rel="noreferrer noopener">Live</a>
+            <a class="btn" href="https://github.com/HassanBinWaqar/netflix-ui-clone" target="_blank" rel="noreferrer noopener">Code</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card span-3">
+          <div class="card-media">
+            <img src="assets/images/youtube-clone-html-css-delta.vercel.app_.png" alt="Screenshot of E-commerce product page" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">YouTube Clone</h3>
+            <p class="muted">Video streaming platform clone with search, watch history, and user authentication.</p>
+            <div class="chipset">
+              <span class="chip">JavaScript</span><span class="chip">Vite</span><span class="chip">Tailwind</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn ghost" href="https://youtube-clone-html-css-delta.vercel.app/" aria-disabled="true">Live</a>
+            <a class="btn" href="https://github.com/HassanBinWaqar/youtube-clone-html-css" aria-disabled="true">Code</a>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card span-3">
+          <div class="card-media">
+            <img src="./assets/images/Dev.png" alt="Screenshot of portfolio single page" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Dev Portfolio (This)</h3>
+            <p class="muted">Frontend Mentor single-page portfolio challenge implementation.</p>
+            <div class="chipset">
+              <span class="chip">Semantic HTML</span><span class="chip">CSS</span><span class="chip">A11y</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn ghost" href="#home">Preview</a>
+            <a class="btn" href="#">Case Study</a>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card span-3">
+          <div class="card-media">
+            <img src="assets/images/modern-infographic-element-collection_52683-1777.jpg" alt="Screenshot of dashboard UI" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Analytics Dashboard</h3>
+            <p class="muted">Dashboard layout with charts, cards, and responsive grid system.</p>
+            <div class="chipset">
+              <span class="chip">React</span><span class="chip">Recharts</span><span class="chip">CSS Grid</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn ghost" href="#" aria-disabled="true">Live</a>
+            <a class="btn" href="#" aria-disabled="true">Code</a>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="card span-3">
+          <div class="card-media">
+            <img src="assets/images/blog.png" alt="Screenshot of blog platform UI" />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Blog Platform</h3>
+            <p class="muted">Markdown blog with tags, search, and dark mode.</p>
+            <div class="chipset">
+              <span class="chip">Next.js</span><span class="chip">MDX</span><span class="chip">SSR</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn ghost" href="#" aria-disabled="true">Live</a>
+            <a class="btn" href="#" aria-disabled="true">Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Skills ============ -->
+  <section id="skills" aria-labelledby="skillsTitle">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow">Toolbelt</p>
+          <h2 id="skillsTitle" class="section-title">Skills</h2>
+        </div>
+      </header>
+      <div class="skills-grid">
+        <div class="skill">HTML5 <small>Semantic, A11y</small></div>
+        <div class="skill">CSS3 <small>Grid, Flexbox</small></div>
+        <div class="skill">JavaScript <small>ES6+, DOM</small></div>
+        <div class="skill">React <small>Hooks, SPA</small></div>
+        <div class="skill">Tailwind <small>Utility-First</small></div>
+        <div class="skill">Git & GitHub <small>Flow</small></div>
+        <div class="skill">Node.js <small>APIs</small></div>
+        <div class="skill">Express <small>Routing</small></div>
+        <div class="skill">MongoDB <small>Mongoose</small></div>
+        <div class="skill">Vite <small>Tooling</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ About ============ -->
+  <section id="about" aria-labelledby="aboutTitle">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow">Who I Am</p>
+          <h2 id="aboutTitle" class="section-title">About</h2>
+        </div>
+      </header>
+      <div class="about">
+        <div class="pane">
+          <h3>Developer & Lifelong Learner</h3>
+          <p>I’m currently in the Buildables MERN Fellowship, exploring best practices and building real projects. I love creating performant UIs, crafting clean CSS, and writing readable, maintainable JavaScript.</p>
+          <p>When I’m not coding, I’m documenting my journey, contributing to the community, and experimenting with design systems.</p>
+        </div>
+        <div class="pane">
+          <h3>Highlights</h3>
+          <ul>
+            <li>🏆 Top performer at Bytewise Fellowship (Front-end)</li>
+            <li>🚀 Built responsive clones (YouTube, Netflix) with accessibility in mind</li>
+            <li>🧰 Strong grounding in Git, branches, and PR workflows</li>
+            <li>🧪 Loves testing ideas quickly and iterating</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section id="contact" aria-labelledby="contactTitle">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow">Let’s Talk</p>
+          <h2 id="contactTitle" class="section-title">Contact</h2>
+        </div>
+      </header>
+      <div class="contact">
+        <div class="pane">
+          <form id="contactForm" class="grid" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+            </div>
+            <div class="field full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
+            </div>
+            <div class="full" style="display:flex; gap:.6rem; align-items:center;">
+              <button type="submit" class="btn">Send Message</button>
+              <p id="formStatus" class="muted" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+        <aside class="pane">
+          <h3>Elsewhere</h3>
+          <p class="muted">Find me around the web:</p>
+          <ul>
+            <li>GitHub — <a href="https://github.com/HassanBinWaqar" target="_blank" rel="noreferrer noopener">@HassanBinWaqar</a></li>
+            <li>LinkedIn — <a href="https://linkedin.com/in/hassanbinwaqar" target="_blank" rel="noreferrer noopener">/in/hassanbinwaqar</a></li>
+            <li>Twitter — <a href="https://x.com/hassanbinwaqar" target="_blank" rel="noreferrer noopener">@your-handle</a></li>
+            <li>Email — <a href="mailto:hassan.binnwaqar@protonmail.com">hassan.binnwaqar@protonmail.com</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Footer ============ -->
+  <footer>
+    <div class="container foot">
+      <p class="muted">© <span id="year"></span> Hassan Bin Waqar. All rights reserved.</p>
+      <div class="social">
+        <a class="icon-btn" href="https://github.com/HassanBinWaqar" aria-label="GitHub" target="_blank" rel="noreferrer noopener">GH</a>
+        <a class="icon-btn" href="https://linkedin.com/in/hassanbinwaqar" aria-label="LinkedIn" target="_blank" rel="noreferrer noopener">in</a>
+        <a class="icon-btn" href="https://x.com/hassanbinwaqar" aria-label="Twitter" target="_blank" rel="noreferrer noopener">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ====== Utilities
+    const $ = (sel, ctx=document) => ctx.querySelector(sel);
+
+    // ====== Current year
+    $('#year').textContent = new Date().getFullYear();
+
+    // ====== Theme toggle with preference persistence
+    const themeBtn = $('#themeToggle');
+    const themeFab = document.getElementById('themeFab');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+    // set initial icon based on theme
+    const setThemeIcon = (btnEl) => {
+      const cur = root.getAttribute('data-theme') || 'light';
+      if (!btnEl) return;
+      btnEl.textContent = cur === 'light' ? '🌙' : '☀️';
+    };
+    setThemeIcon(themeBtn);
+    setThemeIcon(themeFab);
+
+    const toggleTheme = () => {
+      const cur = root.getAttribute('data-theme') || 'light';
+      const next = cur === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      setThemeIcon(themeBtn);
+      setThemeIcon(themeFab);
+    };
+
+    if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
+    if (themeFab) themeFab.addEventListener('click', toggleTheme);
+
+    // also auto-detect system preference on first load if no saved theme
+    if (!saved) {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      root.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+      setThemeIcon(themeBtn);
+      setThemeIcon(themeFab);
+    }
+
+    // ====== Mobile menu toggle
+    const menuBtn = $('#menuToggle');
+    const menu = $('#primaryMenu');
+
+    // close menus if user taps outside (mobile)
+    const closeMenu = () => {
+      if (menu.classList.contains('open')) {
+        menu.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    };
+
+    if (menuBtn) {
+      menuBtn.addEventListener('click', (e) => {
+        const open = menu.classList.toggle('open');
+        menuBtn.setAttribute('aria-expanded', open);
+        e.stopPropagation();
+      });
+    }
+
+    // close menu on outside click (mobile)
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+      if (!menu.contains(target) && !menuBtn.contains(target)) {
+        closeMenu();
+      }
+    });
+
+    // also close menu when a menu link is clicked (good mobile UX)
+    document.querySelectorAll('#primaryMenu a').forEach(a => {
+      a.addEventListener('click', () => {
+        if (menu.classList.contains('open')) {
+          closeMenu();
+        }
+      });
+    });
+
+    // ====== Form validation (client-side only demo)
+    const form = $('#contactForm');
+    const status = $('#formStatus');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const valid = form.checkValidity();
+      if (!valid) {
+        status.textContent = 'Please fill out all required fields correctly.';
+        status.style.color = 'var(--danger)';
+        return;
+      }
+      // Simulated submit
+      status.textContent = 'Thanks! Your message has been queued (demo).';
+      status.style.color = 'var(--brand)';
+      form.reset();
+    });
+
+    // ====== Smooth scroll (native) with offset for sticky header
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if (!el) return;
+        e.preventDefault();
+        const y = el.getBoundingClientRect().top + window.pageYOffset - 70;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      });
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900 && menu.classList.contains('open')) {
+        menu.classList.remove('open');
+        if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+</body>
+</html>
