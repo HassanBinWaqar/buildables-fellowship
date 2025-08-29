@@ -59,7 +59,7 @@ buildables-fellowship/
 
 | **Week**    | **Topics Covered**                             | **Status**     |
 | ----------- | ---------------------------------------------- | -------------- |
-| **Week 01** | HTML, CSS, JS Basics, Git & GitHub             | ✅ Completed    |
+| **Week 01** | HTML, CSS,  Git & GitHub                       | ✅ Completed    |
 | **Week 02** | CSS Grid, Flexbox, Responsive Layouts, Project | 🔄 In Progress |
 | **Week 03** | React Basics, Components, and State Management | ⏳ Upcoming     |
 | **Week 04** | Backend with Node.js, Express & MongoDB        | ⏳ Upcoming     |
