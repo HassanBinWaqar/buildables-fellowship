@@ -1,4 +1,4 @@
-# Day 2 — Responsive Website (Pro Notes)
+# Day 2 — Responsive Website
 
 ## Philosophy
 - **Mobile-first** with `@media (min-width: …)` breakpoints.
