@@ -29,7 +29,7 @@ README.md
 ## 🚀 Run Locally
 Just open `index.html` in your browser. The page will use `css/main.css` which is already included.
 
-## 🛠️ Recompile SASS (optional)
+## 🛠️ Recompile SASS
 If you want to change styles and recompile:
 
 ```bash
