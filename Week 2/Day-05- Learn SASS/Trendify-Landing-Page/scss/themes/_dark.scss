@@ -1,0 +1,9 @@
+body.dark-mode {
+  background: $dark-color;
+  color: $light-color;
+
+  .card, .footer { background: #15171c; border-color: #22242a; }
+  .navbar { background: rgba(#15171c,.8); border-color: #22242a; }
+  p, .small { color: #aab1c3; }
+  .btn--ghost { border-color: #2a2d36; &:hover { background: #20232b; } }
+}

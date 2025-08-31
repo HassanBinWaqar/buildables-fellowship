@@ -1,0 +1,25 @@
+@use "sass:math";
+.container { @include container; }
+
+@for $i from 1 through 8 {
+  .mt-#{$i} { margin-top: spacing($i); }
+  .mb-#{$i} { margin-bottom: spacing($i); }
+  .pt-#{$i} { padding-top: spacing($i); }
+  .pb-#{$i} { padding-bottom: spacing($i); }
+}
+
+.card {
+  background: $light-color;
+  border: 1px solid $muted-200;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+}
+.badge {
+  display: inline-block;
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  background: rgba($primary-color, .12);
+  color: $primary-600;
+  font-weight: 600;
+  font-size: .75rem;
+}

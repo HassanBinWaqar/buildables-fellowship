@@ -1,0 +1,5 @@
+.features .card { padding: 1.25rem; display: grid; gap: .5rem; }
+.cta {
+  background: linear-gradient(135deg, rgba($primary-color,.1), rgba(0,0,0,.02));
+  .inner { @include container; padding: 2rem; @extend .card; text-align: center; }
+}

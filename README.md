@@ -98,6 +98,7 @@ buildables-fellowship/
 | 08      | Combining Grid + Flex Patterns         | `Week-02/Day-08`  | 🔄 In Progress |
 | **09**  | **Responsive Website + Media Queries** | `Week-02/Day-09`  | ✅ Completed    |
 | 10      | **Project** — Responsive PortFolio Website  | `Week-02/Project` | ✅ Completed |
+| 11      | **Learn** — Explore SASS  | `Week-02/Day-11` | ✅ Completed |
 
 ---
 

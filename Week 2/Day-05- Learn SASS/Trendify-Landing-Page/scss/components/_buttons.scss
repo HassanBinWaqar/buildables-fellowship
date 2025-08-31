@@ -1,0 +1,3 @@
+.btn        { @include button(); }
+.btn--ghost { @include button(transparent, $secondary-color); border-color: $muted-400; &:hover { background: $muted-200; } }
+.btn--dark  { @include button($secondary-color, $light-color); }

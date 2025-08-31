@@ -1,0 +1,24 @@
+.product-card {
+  @extend .card;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  transition: transform .2s ease, box-shadow .2s ease;
+
+  &:hover { transform: translateY(-3px); box-shadow: $shadow-md; }
+
+  .media {
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, rgba(0,0,0,.06), rgba(0,0,0,.02));
+    display: grid; place-items: center;
+    font-weight: 700; color: $muted-600;
+  }
+
+  .content {
+    padding: 1rem;
+    h3 { font-size: 1.05rem; margin-bottom: .25rem; }
+    p { @include clampText(2); }
+    .price { font-weight: 700; color: $secondary-color; margin-top: .5rem; }
+    .actions { margin-top: .75rem; display: flex; gap: .5rem; }
+  }
+}

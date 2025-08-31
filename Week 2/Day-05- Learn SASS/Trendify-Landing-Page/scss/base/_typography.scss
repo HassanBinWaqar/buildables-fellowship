@@ -1,0 +1,11 @@
+body {
+  font-family: $font-family;
+  background: $muted-100;
+  color: $secondary-color;
+}
+
+h1, h2, h3 { line-height: 1.2; font-weight: 700; }
+h1 { font-size: clamp(2rem, 2.5vw + 1rem, 3.25rem); }
+h2 { font-size: clamp(1.5rem, 1.2vw + 1rem, 2.25rem); }
+p  { color: $muted-600; }
+.small { font-size: .875rem; color: $muted-600; }

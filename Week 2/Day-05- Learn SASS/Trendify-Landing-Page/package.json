@@ -1,0 +1,10 @@
+{
+  "name": "trendify-landing-page-sass",
+  "version": "1.0.0",
+  "description": "A modern, responsive landing page built with SASS demonstrating advanced SCSS patterns.",
+  "private": true,
+  "scripts": {
+    "sass": "sass scss/main.scss css/main.css --style=compressed --no-source-map",
+    "watch": "sass scss/main.scss css/main.css --style=compressed --no-source-map --watch"
+  }
+}

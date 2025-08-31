@@ -1,0 +1,22 @@
+/* =========================================
+   Trendify Landing Page — SASS Entry
+   ========================================= */
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+@import "base/reset";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/buttons";
+@import "components/cards";
+@import "components/navbar";
+@import "components/footer";
+
+@import "layout/header";
+@import "layout/grid";
+@import "layout/sections";
+
+@import "themes/light";
+@import "themes/dark";

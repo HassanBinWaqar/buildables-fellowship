@@ -1,0 +1,51 @@
+/* =========================================
+   Mixins
+   ========================================= */
+@use "sass:map";
+@use "sass:math";
+
+@mixin respond($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media (max-width: map.get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+@mixin flex-center($gap: spacing(1)) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $gap;
+}
+
+@mixin button($bg: $primary-color, $fg: $light-color) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .875rem 1.25rem;
+  border-radius: $radius;
+  background: $bg;
+  color: $fg;
+  border: 1px solid transparent;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .12s ease, background .25s ease, color .25s ease, box-shadow .25s ease;
+
+  &:hover { transform: translateY(-1px); box-shadow: $shadow-md; }
+  &:active { transform: translateY(0); }
+}
+
+@mixin container {
+  width: min(100% - 2rem, $container-max);
+  margin-inline: auto;
+}
+
+@mixin clampText($lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -1,0 +1,23 @@
+.footer {
+  margin-top: spacing(6);
+  border-top: 1px solid $muted-200;
+  background: $light-color;
+
+  .inner {
+    @include container;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    padding: 2rem 0;
+
+    @include respond(md) { grid-template-columns: 1fr 1fr; }
+    @include respond(sm) { grid-template-columns: 1fr; }
+  }
+
+  .copyright {
+    border-top: 1px solid $muted-200;
+    text-align: center;
+    padding: 1rem 0;
+    color: $muted-600;
+  }
+}
