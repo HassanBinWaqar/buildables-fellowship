@@ -40,18 +40,6 @@ npm install -g sass
 sass scss/main.scss css/main.css --style=compressed --no-source-map --watch
 ```
 
-## 🧪 What to Review (for Leads)
-- Consistent design tokens in `scss/abstracts/_variables.scss`
-- Mixins for responsive design & buttons in `scss/abstracts/_mixins.scss`
-- Function & loops for utilities in `scss/abstracts/_functions.scss` and `scss/base/_utilities.scss`
-- Theming in `scss/themes/_light.scss` and `scss/themes/_dark.scss`
-- Componentization in `scss/components/*`
-
-## 📸 Suggested Enhancements
-- Add more sections (testimonials, newsletter, FAQ).
-- Extract a color system (HSL with computed shades).
-- Add CSS logical properties for RTL support.
-
 ---
 
 Built for **Week 02 (Day 5): Learn SASS** to demonstrate professional, production‑minded styling practices.
