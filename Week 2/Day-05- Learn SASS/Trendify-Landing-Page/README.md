@@ -8,7 +8,7 @@ A modern, responsive landing page built with **SASS** showcasing real-world usag
 - Responsive grid with mixins.
 - Utility classes generated via loops and functions.
 - Reusable components (buttons, cards, navbar, footer).
-- Precompiled `css/main.css` included (no build step required to preview).
+- Precompiled `css/main.css` included..
 
 ## 📂 Structure
 ```
