@@ -116,8 +116,8 @@ buildables-fellowship/
 | 14      | Responsive Design with Tailwind      | `Week-03/Day-02`  | ✅ Completed    |
 | 15      | Flexbox & Grid in Tailwind           | `Week-03/Day-03`  | ✅ Completed    |
 | 16      | Typography, Colors & Customization   | `Week-03/Day-04`  | ✅ Completed    |
-| 17      | Components, Cards & Navbars          | `Week-03/Day-05`  | 🔄 In Progress |
-| 18      | **Project** — E-commerce Homepage UI | `Week-03/Project` | 🔄 In Progress |
+| 17      | Components, Cards & Navbars          | `Week-03/Day-05`  | ✅ Completed |
+| 18      | **Project** — E-commerce Homepage UI | `Week-03/Project` | ✅ Completed  |
 
 </details>
 
