@@ -121,16 +121,7 @@ buildables-fellowship/
 
 </details>
 
-
-📂 Week 03 Contents
-
-Notes/ → Detailed Tailwind fundamentals + cheat sheets
-
-Exercises/ → Multiple Tailwind responsive UI challenges
-
-Project/ → E-commerce Homepage + Product Listing + Hero Section
-
-assets/ → Product images, icons, and static files
+---
 
 ### **📂 Week 02 Contents**
 
@@ -140,43 +131,15 @@ assets/ → Product images, icons, and static files
 * **assets/** → Centralized assets for images & static files
 
 ---
+📂 Week 03 Contents
 
-### **🎯 Week 02 — Day 2: Responsive Website**
+Notes/ → Detailed Tailwind fundamentals + cheat sheets
 
-**🔔 Key Learnings:**
+Exercises/ → Multiple Tailwind responsive UI challenges
 
-* Mobile-first design & scaling layouts
-* Creating flexible grids and containers
-* Using `media queries` for breakpoints
-* Making images & typography fully responsive
-* Accessibility best practices
+Project/ → E-commerce Homepage + Product Listing + Hero Section
 
-**📺 Resource:** [Responsive Website Tutorial](https://youtu.be/ZYV6dYtz4HA?si=8Z9phBeEnA0OHLLz)
-
-**📝 Exercises:**
-
-* `01-responsive-utilities/` → Layout helpers
-* `02-media-queries/` → Content-out breakpoints
-* `03-fluid-typography/` → Using `clamp()`
-* `04-responsive-grid/` → Auto-fit & minmax
-* `05-responsive-navbar/` → Accessible burger menu
-* `06-responsive-cards/` → Cards with Grid + Flex
-
-**🎨 Project:**
-
-* **Responsive Blog Website** — Multi-page responsive site with **flexible layouts**, **semantic HTML**, and **accessible navigation**.
-
----
-
-### **✅ Week 02 Acceptance Criteria**
-
-* **Mobile-first responsive design**
-* **Grid for structure**, **Flexbox for components**
-* **Reusable CSS variables** for theme consistency
-* **Semantic HTML + ARIA** for accessibility
-* **Clean, documented, modular code**
-
-</details>
+assets/ → Product images, icons, and static files
 
 ---
 
