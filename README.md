@@ -103,8 +103,13 @@ buildables-fellowship/
 
 ---
 
-📦 Week 03 — Tailwind CSS Mastery & E-commerce Project 🔥
-<details open> <summary>Click to Expand</summary>
+📦 **Week 03 — Tailwind CSS Mastery & E-commerce Project** 🔥
+
+<details open>
+<summary>Click to Expand</summary>
+
+<br>
+
 | **Day** | **Topics Covered**                   | **Folder**        | **Status**     |
 | ------- | ------------------------------------ | ----------------- | -------------- |
 | 13      | Tailwind Setup & Utility Classes     | `Week-03/Day-01`  | ✅ Completed    |
@@ -114,7 +119,8 @@ buildables-fellowship/
 | 17      | Components, Cards & Navbars          | `Week-03/Day-05`  | 🔄 In Progress |
 | 18      | **Project** — E-commerce Homepage UI | `Week-03/Project` | 🔄 In Progress |
 
----
+</details>
+
 
 📂 Week 03 Contents
 
