@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities / component styles for extraction in production */
+.btn-primary {
+  @apply bg-indigo-700 text-white px-4 py-2 rounded-lg shadow;
+}
+.card {
+  @apply bg-white p-4 rounded-xl shadow;
+}

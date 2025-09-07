@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>\n<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">\n<style>body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}</style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Landing Page — Trendify</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  /* small helpers */
+  .glass { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px); }
+  .card-gradient { background: linear-gradient(135deg, rgba(99,102,241,0.06), rgba(34,197,94,0.04)); }
+</style>
+</head>
+<body class="antialiased bg-gray-50 text-gray-800">
+<div class="max-w-7xl mx-auto p-6">
+
+<header class="flex items-center justify-between mb-8">
+  <div class="flex items-center gap-3">
+    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-indigo-600 to-green-400 text-white flex items-center justify-center font-bold">T</div>
+    <div>
+      <h1 class="text-xl font-bold">Trendify</h1>
+      <p class="text-xs text-gray-500">Minimal premium UI</p>
+    </div>
+  </div>
+  <div class="flex items-center gap-3">
+    <button onclick="toggleDark()" class="px-3 py-2 border rounded">Toggle Dark</button>
+    <a href="#products" class="bg-indigo-600 text-white px-4 py-2 rounded">Shop</a>
+  </div>
+</header>
+
+<main>
+  <section class="grid lg:grid-cols-2 gap-8 items-center mb-8">
+    <div>
+      <h2 class="text-4xl font-extrabold mb-4">Minimal design, meaningful commerce</h2>
+      <p class="text-gray-600 mb-6 max-w-lg">A premium store UI crafted with Tailwind CSS focusing on clarity, performance, and accessibility.</p>
+      <a href="#products" class="bg-black text-white px-5 py-3 rounded-lg">Explore products</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1602524817808-1f3f7c0e8f2b?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" class="rounded shadow-lg"/>
+  </section>
+
+  <section id="features" class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+    <div class="p-4 bg-white rounded shadow">Fast shipping</div>
+    <div class="p-4 bg-white rounded shadow">Premium materials</div>
+    <div class="p-4 bg-white rounded shadow">30-day returns</div>
+  </section>
+</main>
+
+</div>
+<script>
+  // simple dark mode toggle (no persistence to keep file simple)
+  function toggleDark() {
+    document.documentElement.classList.toggle('dark');
+    document.body.classList.toggle('bg-gray-900');
+    document.body.classList.toggle('text-gray-100');
+  }
+</script>
+</body>
+</html>
