@@ -160,17 +160,27 @@ buildables-fellowship/
 
 ---
 
+## 📚 Resources & References  
 
-## 📚 Resources & References
+Here are some highly recommended resources that helped during **Week 4 (CSS Layouts & JavaScript Fundamentals):**  
 
-* [📘 CSS Grid Guide — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-* [📘 Flexbox Guide — MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-* [🎨 CSS Variables — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-* [🔥 Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* [🔥 Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [📺 Responsive Website Tutorial](https://youtu.be/ZYV6dYtz4HA?si=8Z9phBeEnA0OHLLz)
+### 🎨 CSS Layouts & Responsive Design  
+- [📘 CSS Grid Guide — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)  
+- [📘 Flexbox Guide — MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)  
+- [🎨 CSS Variables — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)  
+- [🔥 Complete Guide to CSS Grid — CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)  
+- [🔥 Complete Guide to Flexbox — CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+- [📺 Responsive Website Design Tutorial (YouTube)](https://youtu.be/ZYV6dYtz4HA?si=8Z9phBeEnA0OHLLz)  
+
+### ⚡ JavaScript Fundamentals  
+- [📘 JavaScript Guide — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)  
+- [📘 JavaScript DOM — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)  
+- [🔥 Modern JavaScript (ES6+) — JavaScript.info](https://javascript.info/)  
+- [📺 JavaScript Crash Course for Beginners (Traversy Media)](https://youtu.be/hdI2bqOjy3c)  
+- [📺 DOM Manipulation Tutorial (freeCodeCamp)](https://youtu.be/5fb2aPlgoys)  
 
 ---
+
 
 ## 🔗 Connect With Me
 
