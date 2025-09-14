@@ -139,21 +139,24 @@ buildables-fellowship/
 </details>
 
 ---
-📦 Week 04 — JavaScript Fundamentals & Mini Projects ⚡
-<details open> <summary>Click to Expand</summary> <br>
-| **Day** | **Topics Covered**                          | **Folder**       | **Status**    |
-| ------- | ------------------------------------------- | ---------------- | ------------- |
-| 19      | JavaScript Basics (Variables, Data Types)   | `Week-04/Day-01` | ✅ Completed   |
-| 20      | Operators & Control Flow                    | `Week-04/Day-02` | ✅ Completed   |
-| 21      | Loops & Iterations                          | `Week-04/Day-03` | ✅ Completed   |
-| 22      | Functions in JavaScript                     | `Week-04/Day-04` | ✅ Completed   |
-| 23      | **Project** — TODO App (Functions + DOM)    | `Week-04/Day-05` | ✅ Completed   |
-| 24      | Arrays & Objects (Deep Dive)                | `Week-04/Day-06` | ⏳ In Progress |
-| 25      | ES6 Features (Arrow Functions, Let & Const) | `Week-04/Day-07` | ⏳ Upcoming    |
+# 📦 Week 04 — JavaScript Fundamentals & Mini Projects ⚡
+
+<details open>
+<summary>Click to Expand</summary>
+
+<br>
+
+| **Day** | **Topics Covered**                           | **Folder**             | **Status**     |
+| ------- | -------------------------------------------- | ---------------------- | -------------- |
+| 19      | JavaScript Basics (Variables, Data Types)    | `Week-04/Day-01`       | ✅ Completed    |
+| 20      | Operators & Control Flow                     | `Week-04/Day-02`       | ✅ Completed    |
+| 21      | Loops & Iterations                           | `Week-04/Day-03`       | ✅ Completed    |
+| 22      | Functions in JavaScript                      | `Week-04/Day-04`       | ✅ Completed    |
+| 23      | **Project** — TODO App (Functions + DOM)     | `Week-04/Day-05`       | ✅ Completed    |
+| 24      | Arrays & Objects (Deep Dive)                 | `Week-04/Day-06`       | ⏳ In Progress |
+| 25      | ES6 Features (Arrow Functions, Let & Const)  | `Week-04/Day-07`       | ⏳ Upcoming    |
 
 </details>
-
-
 
 ---
 
