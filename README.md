@@ -72,13 +72,15 @@ buildables-fellowship/
 
 ## 📅 Weekly Progress Overview
 
-| **Week**    | **Topics Covered**                             | **Status**     |
-| ----------- | ---------------------------------------------- | -------------- |
-| **Week 01** | HTML, CSS,  Git & GitHub                       | ✅ Completed    |
-| **Week 02** | CSS Grid, Flexbox, Responsive Layouts, Project | 🔄 In Progress |
-| **Week 03** | React Basics, Components, and State Management | ⏳ Upcoming     |
-| **Week 04** | Backend with Node.js, Express & MongoDB        | ⏳ Upcoming     |
-| **Week 05** | Full-Stack MERN Project + Deployment           | ⏳ Upcoming     |
+| **Week**    | **Topics Covered**                                   | **Status**     |
+| ----------- | ---------------------------------------------------- | -------------- |
+| **Week 01** | HTML, CSS, Git & GitHub                              | ✅ Completed    |
+| **Week 02** | CSS Grid, Flexbox, Responsive Layouts, Project       | ✅ Completed    |
+| **Week 03** | Tailwind CSS Mastery & E-commerce Project            | ✅ Completed    |
+| **Week 04** | JavaScript Fundamentals & Mini Projects (TODO App)   | 🔄 In Progress |
+| **Week 05** | React Basics, Components, and State Management       | ⏳ Upcoming     |
+| **Week 06** | Backend with Node.js, Express & MongoDB              | ⏳ Upcoming     |
+| **Week 07** | Full-Stack MERN Project + Deployment                 | ⏳ Upcoming     |
 
 ---
 
