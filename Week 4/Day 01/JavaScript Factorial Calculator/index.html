@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     //factorial using for loop 
+    // const factorial =(n)=>{
+    //     if(n===0 || n===1){
+    //         return 1;
+    //     }
+
+    //     //why n-1 here?
+    //     //because we want to multiply n with all numbers less than it down to 1
+    //     //so if n is 5, we want to multiply 5 * 4 * 3 * 2 * 1
+    //     //if we start from n, we will multiply n with itself which is not desired
+    //     for(let index = n-1 ; index >=1 ; index-=1){
+    //         console.log(index, n);
+    //         n = n * index;
+    //     }
+    //     return n;
+    // }
+
+    // console.log(factorial(5)); // Output: 120
+    // console.log(factorial(0)); // Output: 1
+
+    // factorial using reduce
+    // const factorialReduced = (number)=>{
+    //     if (number === 0 || number === 1) {
+    //         return 1;
+    //     }
+    //     return number.reduce((accumulator, currentValue) =>{
+    //         console.log(`accumulator: ${accumulator}, currentValue: ${currentValue}`);
+    //         return accumulator * currentValue;
+    //     }, 1);
+    //     //how this works?
+    //     //1 is the initial value of accumulator
+    //     //currentValue is the current element in the array
+    //     //accumulator is the product of all previous elements
+    // }
+
+    // let arr = [1, 2, 3, 4, 5];
+    // console.log(`Factorial using reduce: ${factorialReduced(arr)}`); // Output: 120
+
+
+    // //factorial using recursion
+    // const factorialRecursive = (n) => {
+    //     if (n === 0 || n === 1) {
+    //         return 1;
+    //     }
+    //     return n * factorialRecursive(n - 1);
+    // }
+
+
+    //3rd way to do factorial 
+
+    let a = 5;
+
+    function fact(number){
+
+        //this Array.from(Array(number).keys()) will create an array of numbers from 0 to number-1
+        //for example, if number is 6, it will create [0, 1, 2, 3, 4, 5]
+        //we can then use reduce to multiply all these numbers together
+        let arr = Array.from(Array(number).keys());
+        console.log(arr);
+
+        let result = arr.reduce((accumulator, currentValue) => {
+            console.log(`accumulator: ${accumulator}, currentValue: ${currentValue}`);
+            return accumulator * (currentValue + 1); // +1 because keys start from 0
+        }, 1);
+
+        console.log(`Factorial of ${number} is ${result}`);
+    }
+
+    fact(a);
+    </script>
+</body>
+</html>

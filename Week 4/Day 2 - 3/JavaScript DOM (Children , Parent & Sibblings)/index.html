@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .box {
+        height: 54px;
+        width: 56px;
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+      }
+      .container {
+        place-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+      <div class="box">Box 4</div>
+      <div class="box">Box 5</div>
+    </div>
+
+    <!-- <p></p>
+
+    <div class="main"></div> -->
+
+    <script>
+      // what we learn here
+      // 1;ChildNodes
+      // 2:FirstChild
+      // 3:LastChild
+      //   4:parentElement
+      // 5:firstElementChild
+      // 6: lastElementChild
+      // 7: children
+      // 8: nextElementSibling
+      // 9: previousElementSibling
+
+      // this child nodes property prints all the child nodes including comments nodes and text nodes insdie the body tag
+      let nodes = document.body.childNodes;
+      console.log(nodes);
+
+      let nodeIndex = document.body.childNodes[0]; //text node output
+      console.log(nodeIndex);
+
+      let nodeIndexMore = document.body.childNodes[1];
+      console.log(nodeIndexMore);
+
+      //   it will print the first child of the div.container it can be text or comment or elemenmt node
+      let FirstChildProperty = document.body.childNodes[1].firstChild;
+      console.log(FirstChildProperty);
+      //   it will print the Last child of the div.container it can be text or comment or elemenmt node
+      let LastChildProperty = document.body.childNodes[1].firstChild;
+      console.log(LastChildProperty);
+
+      // it will print only the html element not the text or comment node
+      let FirstElemet = document.body.childNodes[1].firstElementChild;
+      console.log(FirstElemet);
+      // it will print only Last Child That is element, the html element not the text or comment node
+      let LastElemet = document.body.childNodes[1].lastElementChild;
+      console.log(LastElemet);
+
+      // this will print only the html elements inside the div.container , and not print the text and comment nodes
+      let sib = document.body.childNodes[1].children;
+      console.log(sib);
+
+      let parentNode = document.body.childNodes[1].firstElementChild;
+      console.log(parentNode);
+
+      //   this will print the parent of the child
+      console.log(parentNode.parentElement);
+      //it will print the box 2 because first element child is box 1 and its next sibling is box 2
+      let nextSibling = document.body.childNodes[1].firstElementChild;
+      console.log(nextSibling.nextElementSibling);
+
+      //it will print the box 4 because last element child is box 5 and its prev sibling is box 4
+      let prevsib = document.body.childNodes[1].lastElementChild;
+      console.log(prevsib.previousElementSibling);
+
+      let allchildrens = document.body.firstElementChild.children;
+      console.log(allchildrens);
+
+      let changeColor = document.body.firstElementChild.children[3];
+      //this will add inline css in the box
+      changeColor.style.color = "red";
+      changeColor.style.background = "black";
+      console.log(changeColor);
+    </script>
+  </body>
+</html>

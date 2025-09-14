@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red bg-green">Hassan Bin Waqar</div>
+    </div>
+
+    <script>
+             let cont = document.querySelector(".container");
+             cont.insertAdjacentHTML("afterBegin", "<div class='box red bg-green' style='border: 1px solid red; width:100px; background-color: red;'>New Box</div>");
+             let newDiv = document.createElement("div");
+             newDiv.setAttribute("class", "box red bg-green");
+             newDiv.style.border = "1px solid red";
+             newDiv.style.width = "100px";
+             newDiv.style.backgroundColor = "green";
+             newDiv.textContent = "New Box";
+             cont.insertAdjacentElement("beforeend", newDiv);
+             cont.insertAdjacentText("afterend","<div class='box red bg-green' style='border: 1px solid red; width:100px; background-color: green;'> Box</div>")
+    </script>
+</body>
+</html>

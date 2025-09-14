@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM EVENTS</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">JavaScript DOM EVENTS</div>
+    </div>
+
+    <button id="myButton">Click Me!</button>
+
+    <script>
+      const button = document.getElementById("myButton");
+
+      //click listener when we single click on any element
+      button.addEventListener("click", function () {
+        document.querySelector(".box").innerHTML = "Button clicked!";
+      });
+
+      // dbl click listener when we double click on any element
+      button.addEventListener("dblclick", () => {
+        document.querySelector(".box").innerHTML = "Button double-clicked!";
+      });
+
+      //event.preventDefault() is a method that stops the default action associated with an event from happening.
+
+      // In your code, it prevents the browser's default context menu (the menu that appears when you right-click) from showing up when you right-click the button. Instead, your custom message "Button right-clicked!" is displayed in the .box element.
+
+      // context menu listener when we right click on any element
+      button.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+        document.querySelector(".box").innerHTML = "Button right-clicked!";
+      });
+
+      // mouse over listener when we mouse over any element
+      button.addEventListener("mouseover", () => {
+        document.querySelector(".box").style.backgroundColor = "lightblue";
+      });
+
+      //mouse out listener when we mouse out of any element
+      button.addEventListener("mouseout", () => {
+        document.querySelector(".box").style.backgroundColor = "";
+      });
+
+      //wheel event listener when we scroll on any element
+      // ...existing code...
+      function handleWheel() {
+        document.querySelector(".box").innerHTML = "Button scrolled!";
+      }
+      button.addEventListener("wheel", handleWheel);
+      // To remove:
+      button.removeEventListener("wheel", handleWheel);
+
+      //event listener when we focus on any element
+      document.addEventListener("keydown", (e) => {
+        //e prints the key that was pressed with all details
+        console.log(e);
+        //e.key prints the key that was pressed
+        console.log(e.key);
+        //e.keyCode prints the key code of the key that was pressed
+        console.log(e.keyCode);
+      });
+    </script>
+  </body>
+</html>

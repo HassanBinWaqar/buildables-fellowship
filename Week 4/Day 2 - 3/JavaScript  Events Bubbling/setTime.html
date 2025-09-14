@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeOut && setInterval</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">JavaScript setTimeOut && setInterval</div>
+    </div>
+
+    <button id="myButton">Click Me!</button>
+
+    <script>
+        const button = document.getElementById("myButton");
+
+        // setTimeout is a method that executes a function or a specified piece of code after a certain delay (in milliseconds).
+        // Syntax: setTimeout(function, delayInMilliseconds);
+
+        button.addEventListener("click", () => {
+            setTimeout(() => {
+                document.querySelector(".box").innerHTML = "Button clicked after 2 seconds!";
+            }, 2000); // 2000 milliseconds = 2 seconds
+        });
+
+        // setInterval is a method that repeatedly executes a function or a specified piece of code at regular intervals (in milliseconds) until it is stopped.
+        // Syntax: setInterval(function, intervalInMilliseconds);
+
+        let count = 0;
+        const intervalId = setInterval(() => {
+            count++;
+            document.querySelector(".box").innerHTML = `Button clicked ${count} times`;
+            if (count === 5) {
+                clearInterval(intervalId); // Stop the interval after 5 clicks
+            }
+        }, 1000); // 1000 milliseconds = 1 second
+
+    </script>
+</body>
+</html>

@@ -122,26 +122,24 @@ buildables-fellowship/
 </details>
 
 ---
+📦 Week 04 — JavaScript Fundamentals & Mini Projects ⚡
+<details open> <summary>Click to Expand</summary> <br>
+| **Day** | **Topics Covered**                          | **Folder**       | **Status**    |
+| ------- | ------------------------------------------- | ---------------- | ------------- |
+| 19      | JavaScript Basics (Variables, Data Types)   | `Week-04/Day-01` | ✅ Completed   |
+| 20      | Operators & Control Flow                    | `Week-04/Day-02` | ✅ Completed   |
+| 21      | Loops & Iterations                          | `Week-04/Day-03` | ✅ Completed   |
+| 22      | Functions in JavaScript                     | `Week-04/Day-04` | ✅ Completed   |
+| 23      | **Project** — TODO App (Functions + DOM)    | `Week-04/Day-05` | ✅ Completed   |
+| 24      | Arrays & Objects (Deep Dive)                | `Week-04/Day-06` | ⏳ In Progress |
+| 25      | ES6 Features (Arrow Functions, Let & Const) | `Week-04/Day-07` | ⏳ Upcoming    |
 
-### **📂 Week 02 Contents**
+</details>
 
-* **Notes/** → Pro-level cheat sheets for **Grid** + **Flexbox** + **Media Queries**
-* **Exercises/** → 6 production-ready responsive layout challenges
-* **Project/** → Responsive **Blog Website** + Agency Landing Page
-* **assets/** → Centralized assets for images & static files
 
----
-📂 Week 03 Contents
-
-Notes/ → Detailed Tailwind fundamentals + cheat sheets
-
-Exercises/ → Multiple Tailwind responsive UI challenges
-
-Project/ → E-commerce Homepage + Product Listing + Hero Section
-
-assets/ → Product images, icons, and static files
 
 ---
+
 
 ## 📚 Resources & References
 

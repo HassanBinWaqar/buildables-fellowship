@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" style="display: flex">
+      <div class="box">Inside the box1</div>
+      <div class="box">Inside the box2</div>
+      <div class="box red">Inside the box2</div>
+      <div>
+        <span style="display: none">Hidden</span>
+        <b>Visible</b> Text
+      </div>
+
+      <!--we can add data attributes to store custom data or information without any error -->
+      <div class="newData" data-info="Created by Hassan "></div>
+    </div>
+
+    <script>
+      //   innerHTML: Returns HTML markup (tags + text).
+      //   innerText: Returns only visible text (ignores hidden text, respects CSS).
+      //   textContent: Returns all text (including hidden, ignores formatting).
+      document.title = "JavaScript Inserting & Removing Elements";
+      const box = document.querySelector(".box");
+      const container = document.querySelector(".container");
+
+      //   01 ; //inner html : is used to print the content of the box
+      console.log(box.innerHTML);
+      console.log(document.querySelector(".container").innerHTML);
+
+      //   02 ; //innerText : is used to print the text content of the box without HTML tags
+      console.log(box.innerText);
+      console.log(document.querySelector(".container").innerText);
+
+      //   03 ; //textContent : is used to print the text content and hidden text of the box without HTML tags
+      console.log(box.textContent);
+      console.log(document.querySelector(".container").textContent);
+
+      //   04 ; //outerHTML : is used to print the HTML content of the box including the box itself
+      console.log(box.outerHTML);
+      console.log(document.querySelector(".container").outerHTML);
+
+      //   05 ; //tagName : is used to print the name of the tag of the box
+      console.log(box.tagName);
+      console.log(document.querySelector(".container").tagName);
+
+      // 06 ; //nodeName : is used to print the name of the node of the box
+      console.log(box.nodeName);
+      console.log(document.querySelector(".container").nodeName);
+
+      //difference bw tagName && nodeName
+      //tagName :  is only available on Element nodes (like <div>, <span>).
+      //nodeName : is available on all node types (elements, text nodes, comments, etc.).
+      // For elements, nodeName is the same as tagName.
+      // For other nodes, nodeName can be #text, #comment, etc.
+      const div = document.querySelector("div");
+      console.log(div.tagName); // "DIV"
+      console.log(div.nodeName); // "DIV"
+
+      const text = div.firstChild;
+      console.log(text.nodeName); // "#text"
+
+      //   07 ; //hidden property
+      console.log((box.hidden = true));
+      console.log(document.querySelector(".container").hidden);
+
+      //08 ; //hasAttribute
+      //   it is used to check if an element has a specific attribute.
+      console.log(box.hasAttribute("class"));
+      console.log(document.querySelector(".container").hasAttribute("style"));
+      console.log(box.hasAttribute("hidden"));
+
+      //09 ; //getAttribute gives the property of the attribute and its value
+      console.log(box.getAttribute("class")); // "box"
+      console.log(document.querySelector(".container").getAttribute("style"));
+
+      //10 ; //setAttribute sets the value of an attribute or change the existing one
+      box.setAttribute("class", "boxSet");
+      console.log(box.getAttribute("class")); // "boxSet"
+      container.setAttribute("style", "display: block");
+      console.log(container.getAttribute("style")); // "display: block"
+
+      //11 ; //removeAttribute removes an attribute from an element
+      box.removeAttribute("class");
+      console.log(box.getAttribute("class")); // null
+      container.removeAttribute("style");
+      console.log(container.getAttribute("style")); // null
+
+
+      //12 ; all attributes
+      console.log(box.attributes);
+      console.log(container.attributes);
+
+      //13 ; Document.designMode = "on" works on browser to edit any page
+
+
+      // 14 ; data attributes is used to store custom data
+      const newDiv = document.querySelector(".newData");
+      console.log(newDiv.dataset.info); // "Created by Hassan"
+      console.log(newDiv.dataset); // "Created by Hassan"
+      // dataset is a DOMStringMap that allows you to access all data attributes on an element
+      // It provides a convenient way to work with data attributes in JavaScript
+      // For example, you can access data attributes like this:
+      console.log(newDiv.dataset.info); // "Created by Hassan"
+      console.log(newDiv.dataset); // { info: "Created by Hassan" }
+
+      //set data attributes
+      newDiv.dataset.info = "Updated by Hassan";
+      console.log(newDiv.dataset.info); // "Updated by Hassan"
+ 
+      // 15 ;  Inserting Element in the page  using append
+      //below all are the node elements in easy words node is any element in the DOM tree
+
+      const newElement = document.createElement("div");
+      newElement.textContent = "Hello, I'm a new element!";
+      newElement.setAttribute("class", "new-element");
+      // newElement.innerHTML = "<strong>Hello, I'm a new element!</strong>";
+      //append the new element to the end of <div class="container"></div>
+      document.querySelector(".container").append(newElement);
+
+      // 16 ; Inserting element in the page using prepend
+
+      const newElement2 = document.createElement("div");
+      newElement2.textContent = "Hello, I'm another new element!";
+      newElement2.setAttribute("class", "new-element");
+       //prepend adds the new element to the beginning of the container
+      document.querySelector(".container").prepend(newElement2);
+
+
+      // 17 ; Inserting element in the page using before
+      const newElement3 = document.createElement("div");
+      newElement3.textContent = "Hello, I'm yet another new element!";
+      newElement3.setAttribute("class", "new-element");
+      //before adds the new element before the container
+      document.querySelector(".container").before(newElement3);
+
+      // 18 ; Inserting element in the page using after
+      const newElement4 = document.createElement("div");
+      newElement4.textContent = "Hello, I'm yet another new element!";
+      newElement4.setAttribute("class", "new-element");
+      //after adds the new element after the container
+      document.querySelector(".container").after(newElement4);
+
+
+      // 19 ; // Inserting element in the page using replaceWith
+      // const newElement5 = document.createElement("div");
+      // newElement5.textContent = "Hello, I'm yet another  new element!";
+      // newElement5.setAttribute("class", "new-element");
+      // //replaceWith replaces the container with the new element
+      // document.querySelector(".container").replaceWith(newElement5);
+
+
+      //20 ; Insert Element using insertAdjacentElement
+      //insertAdjacentElement allows you to insert an element at a specific position relative to another element
+      //these all are html element methods
+     let cont = document.querySelector(".container");
+      //insertAdjacentElement inserts the new element at a specified position relative to the container
+     cont.insertAdjacentHTML("beforebegin", "<div class='new-element'>Hello, I'm beforebegin yet another new element!</div>");
+     cont.insertAdjacentHTML("afterbegin", "<div class='new-element'>Hello, I'm afterbegin yet another new element!</div>");
+     cont.insertAdjacentHTML("beforeend", "<div class='new-element'>Hello, I'm beforeend yet another new element!</div>");
+     cont.insertAdjacentHTML("afterend", "<div class='new-element'>Hello, I'm afterend yet another new element!</div>");
+
+
+    //  21; Insert Element using insertAdjacentText
+    //insertAdjacentText allows you to insert text at a specific position relative to another element
+    //these all are html element methods
+    // let cont = document.querySelector(".container");
+    // //insertAdjacentText inserts the new text at a specified position relative to the container
+    // cont.insertAdjacentText("beforebegin", "Hello, I'm beforebegin yet another new element!");
+    // cont.insertAdjacentText("afterbegin", "Hello, I'm afterbegin yet another new element!");
+    // cont.insertAdjacentText("beforeend", "Hello, I'm beforeend yet another new element!");
+    // cont.insertAdjacentText("afterend", "Hello, I'm afterend yet another new element!");
+
+
+    // 22; Inserting Element using insertAdjacentElement
+    //insertAdjacentElement allows you to insert an element at a specific position relative to another element
+    //these all are html element methods
+    // let cont = document.querySelector(".container");
+    // //insertAdjacentElement inserts the new element at a specified position relative to the container
+    // cont.insertAdjacentElement("beforebegin", document.createElement("div").textContent = "Hello, I'm beforebegin yet another new element!");
+    // cont.insertAdjacentElement("afterbegin", document.createElement("div").textContent = "Hello, I'm afterbegin yet another new element!");
+    // cont.insertAdjacentElement("beforeend", document.createElement("div").textContent = "Hello, I'm beforeend yet another new element!");
+    // cont.insertAdjacentElement("afterend", document.createElement("div").textContent = "Hello, I'm afterend yet another new element!");
+
+
+    //23; removing Element using remove
+    //remove allows you to remove an element from the DOM
+    //these all are html element methods
+    // let cont = document.querySelector(".container");
+    // //remove removes the container from the DOM
+    // cont.remove();
+
+
+    // 24 ; ClassList and ClassName
+    // ClassList is a property that returns the class names of an element as a DOMTokenList
+    // ClassName is a property that returns the class names of an element as a string
+    const box1 = document.querySelector(".box");
+    box1.classList.add("new-class"); // Adds a new class
+    console.log(box1.classList); // Logs the class list
+    console.log(box1.className); // Logs the class names as a string
+
+    box1.classList.toggle("new-class"); // Toggles the class (adds if not present, removes if present)
+    console.log(box1.classList); // Logs the class list
+
+    box1.classList.remove("box"); // Removes the class
+    console.log(box1.classList); // Logs the class list
+
+    </script>
+  </body>
+</html>
+

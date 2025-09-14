@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+    <style>
+        .parentContainer{
+            padding: 20px;
+            background-color: lightgray;
+            border: 1px solid black;
+            border-radius: 5px;
+
+        }
+        .subParent{
+            padding: 20px;
+            background-color: lightgreen;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .child{
+            padding: 20px;
+            background-color: lightcoral;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parentContainer">
+        <div class="subParent">
+            <div class="child">Child Element</div>
+        </div>
+    </div>
+
+    <script>
+        //what bubbling means ??
+        const parent = document.querySelector(".parentContainer");
+        const subParent = document.querySelector(".subParent");
+        const child = document.querySelector(".child");
+
+        parent.addEventListener("click", () => {
+            alert("Parent Container Clicked");
+        });
+
+        subParent.addEventListener("click", (event) => {
+            alert("Sub Parent Clicked");
+            event.stopPropagation(); // Stop the event from bubbling up
+        });
+
+        child.addEventListener("click", (event) => {
+            alert("Child Clicked");
+            event.stopPropagation(); // Stop the event from bubbling up
+        });
+
+        //but if we do not add event.stopPropagation() 
+        //the click event will bubble up to the parent elements
+        //this means that when we click on the child element, both the child and parent click events will be triggered.
+    </script>
+</body>
+</html>
