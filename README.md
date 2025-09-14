@@ -49,8 +49,23 @@ buildables-fellowship/
 │   ├── Exercises/          # Hands-on layout exercises
 │   ├── Project/            # Responsive Blog Project + Landing Page
 │   └── assets/             # Images, icons, static files
-├── Week-03/                # React Fundamentals (Upcoming)
+├── Week-03/                # Tailwind CSS Mastery & E-commerce Project
+│   ├── Day-01/             # Tailwind Setup & Utility Classes
+│   ├── Day-02/             # Responsive Design with Tailwind
+│   ├── Day-03/             # Flexbox & Grid in Tailwind
+│   ├── Day-04/             # Typography, Colors & Customization
+│   ├── Day-05/             # Components, Cards & Navbars
+│   └── Project/            # E-commerce Homepage UI
+├── Week-04/                # JavaScript Fundamentals & Mini Projects
+│   ├── Day-01/             # Variables & Data Types
+│   ├── Day-02/             # Operators & Control Flow
+│   ├── Day-03/             # Loops & Iterations
+│   ├── Day-04/             # Functions + Color Changer Mini Project
+│   ├── Day-05/             # TODO App (Functions + DOM Manipulation)
+│   ├── Day-06/             # Arrays & Objects Deep Dive
+│   └── Day-07/             # ES6 Features (Arrow Functions, Let & Const)
 └── README.md
+
 ```
 
 ---
