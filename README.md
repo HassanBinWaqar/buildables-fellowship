@@ -64,7 +64,19 @@ buildables-fellowship/
 │   ├── Day-05/             # TODO App (Functions + DOM Manipulation)
 │   ├── Day-06/             # Arrays & Objects Deep Dive
 │   └── Day-07/             # ES6 Features (Arrow Functions, Let & Const)
+├── Week-05/                # React + Node.js
+│   ├── Day-01-03/          # React Fundamentals
+│   │   └── README.md       # Covers:
+│   │        * Introduction to React and its core concepts
+│   │        * Setting up a React development environment
+│   │        * Understanding components, props, and state
+│   │        * How to build and manage a basic React application
+│   ├── Day-04-05/          # Node.js Fundamentals
+│   │   ├── Notes/          # Detailed notes on Node.js (modules, event loop, npm, express, middleware, async)
+│   │   ├── Exercises/      # 6 Practical exercises (servers, modules, file system, events, async/await)
+│   │   └── Project-BlogAPI/# Full Blog REST API (CRUD with Express, middleware, error handling, landing page)
 └── README.md
+
 
 ```
 
@@ -78,7 +90,7 @@ buildables-fellowship/
 | **Week 02** | CSS Grid, Flexbox, Responsive Layouts, Project       | ✅ Completed    |
 | **Week 03** | Tailwind CSS Mastery & E-commerce Project            | ✅ Completed    |
 | **Week 04** | JavaScript Fundamentals & Mini Projects (TODO App)   | 🔄 In Progress |
-| **Week 05** | React Basics, Components, and State Management       | ⏳ Upcoming     |
+| **Week 05** | React Basics, Components, and State Management  + Node Basics     |  ✅ Completed   |
 | **Week 06** | Backend with Node.js, Express & MongoDB              | ⏳ Upcoming     |
 | **Week 07** | Full-Stack MERN Project + Deployment                 | ⏳ Upcoming     |
 
@@ -155,6 +167,26 @@ buildables-fellowship/
 | 23      | **Project** — TODO App (Functions + DOM)     | `Week-04/Day-05`       | ✅ Completed    |
 | 24      | Arrays & Objects (Deep Dive)                 | `Week-04/Day-06`       | ⏳ In Progress |
 | 25      | ES6 Features (Arrow Functions, Let & Const)  | `Week-04/Day-07`       | ⏳ Upcoming    |
+
+</details>
+
+---
+# 📦 Week 05 — React Fundamentals + Node.js Backend ⚡
+
+<details open>
+<summary>Click to Expand</summary>
+
+<br>
+
+| **Day** | **Topics Covered**                                             | **Folder**                | **Status**     |
+| ------- | -------------------------------------------------------------- | ------------------------- | -------------- |
+| 26      | Introduction to React & Core Concepts                          | `Week-05/Day-01-03`       | ✅ Completed    |
+| 27      | Setting up React Development Environment                       | `Week-05/Day-01-03`       | ✅ Completed    |
+| 28      | Understanding Components, Props & State                        | `Week-05/Day-01-03`       | ✅ Completed    |
+| 29      | Building & Managing a Basic React Application                  | `Week-05/Day-01-03`       | ✅ Completed    |
+| 30      | Node.js Fundamentals (Modules, Event Loop, npm, Express, etc.) | `Week-05/Day-04-05/Notes` | ✅ Completed    |
+| 31      | **Exercises** — Servers, Modules, File System, Events, Async   | `Week-05/Day-04-05/Exercises` | ✅ Completed |
+| 32      | **Project** — Blog REST API (CRUD, Middleware, Error Handling) | `Week-05/Day-04-05/Project-BlogAPI` | ✅ Completed |
 
 </details>
 
