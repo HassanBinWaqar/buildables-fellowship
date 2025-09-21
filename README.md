@@ -43,40 +43,44 @@ This repository is a **complete learning journal**, tracking my daily progress:
 ```bash
 buildables-fellowship/
 │
-├── Week-01/                # HTML, CSS, JS Basics, Git & GitHub
-├── Week-02/                # CSS Grid, Flexbox, Responsive Layouts + Project
-│   ├── Notes/              # In-depth notes + cheat sheets
-│   ├── Exercises/          # Hands-on layout exercises
-│   ├── Project/            # Responsive Blog Project + Landing Page
-│   └── assets/             # Images, icons, static files
-├── Week-03/                # Tailwind CSS Mastery & E-commerce Project
-│   ├── Day-01/             # Tailwind Setup & Utility Classes
-│   ├── Day-02/             # Responsive Design with Tailwind
-│   ├── Day-03/             # Flexbox & Grid in Tailwind
-│   ├── Day-04/             # Typography, Colors & Customization
-│   ├── Day-05/             # Components, Cards & Navbars
-│   └── Project/            # E-commerce Homepage UI
-├── Week-04/                # JavaScript Fundamentals & Mini Projects
-│   ├── Day-01/             # Variables & Data Types
-│   ├── Day-02/             # Operators & Control Flow
-│   ├── Day-03/             # Loops & Iterations
-│   ├── Day-04/             # Functions + Color Changer Mini Project
-│   ├── Day-05/             # TODO App (Functions + DOM Manipulation)
-│   ├── Day-06/             # Arrays & Objects Deep Dive
-│   └── Day-07/             # ES6 Features (Arrow Functions, Let & Const)
-├── Week-05/                # React + Node.js
-│   ├── Day-01-03/          # React Fundamentals
-│   │   └── README.md       # Covers:
-│   │        * Introduction to React and its core concepts
-│   │        * Setting up a React development environment
-│   │        * Understanding components, props, and state
-│   │        * How to build and manage a basic React application
-│   ├── Day-04-05/          # Node.js Fundamentals
-│   │   ├── Notes/          # Detailed notes on Node.js (modules, event loop, npm, express, middleware, async)
-│   │   ├── Exercises/      # 6 Practical exercises (servers, modules, file system, events, async/await)
-│   │   └── Project-BlogAPI/# Full Blog REST API (CRUD with Express, middleware, error handling, landing page)
+├── Week-01/                         # HTML, CSS, JS Basics, Git & GitHub
+├── Week-02/                         # CSS Grid, Flexbox, Responsive Layouts + Project
+│   ├── Notes/                       # In-depth notes + cheat sheets
+│   ├── Exercises/                   # Hands-on layout exercises
+│   ├── Project/                     # Responsive Blog Project + Landing Page
+│   └── assets/                      # Images, icons, static files
+├── Week-03/                         # Tailwind CSS Mastery & E-commerce Project
+│   ├── Day-01/                      # Tailwind Setup & Utility Classes
+│   ├── Day-02/                      # Responsive Design with Tailwind
+│   ├── Day-03/                      # Flexbox & Grid in Tailwind
+│   ├── Day-04/                      # Typography, Colors & Customization
+│   ├── Day-05/                      # Components, Cards & Navbars
+│   └── Project/                     # E-commerce Homepage UI
+├── Week-04/                         # JavaScript Fundamentals & Mini Projects
+│   ├── Day-01/                      # Variables & Data Types
+│   ├── Day-02/                      # Operators & Control Flow
+│   ├── Day-03/                      # Loops & Iterations
+│   ├── Day-04/                      # Functions + Color Changer Mini Project
+│   ├── Day-05/                      # TODO App (Functions + DOM Manipulation)
+│   ├── Day-06/                      # Arrays & Objects Deep Dive
+│   └── Day-07/                      # ES6 Features (Arrow Functions, Let & Const)
+├── Week-05/                         # React + Node.js
+│   ├── Day-01-03/                   # React Fundamentals
+│   │   └── README.md
+│   ├── Day-04-05/                   # Node.js Fundamentals
+│   │   ├── Notes/                   
+│   │   ├── Exercises/               
+│   │   └── Project-BlogAPI/         
+├── Week-06/                         # Express & MongoDB
+│   ├── Day-01-02/                   # Express Fundamentals
+│   │   ├── Exercises/               # Basic server, routing, middleware, params, error handling
+│   │   ├── Notes/                   # Intro, routing, middleware, REST, best practices
+│   │   └── Project-TaskAPI/         # Task Manager API (Express-only, with in-memory & Mongo fallback)
+│   └── Day-05/                      # MongoDB + REST API (Pro Blog API)
+│       ├── Exercises/               # MongoDB setup, CRUD, REST API, validation, aggregation, queries
+│       ├── Notes/                   # Deep dive MongoDB, CRUD, REST, validation, aggregation, best practices
+│       └── Project-BlogAPI-Pro/     # Full professional Blog API with Auth, Posts, Comments, Validation, JWT
 └── README.md
-
 
 ```
 
@@ -91,7 +95,7 @@ buildables-fellowship/
 | **Week 03** | Tailwind CSS Mastery & E-commerce Project            | ✅ Completed    |
 | **Week 04** | JavaScript Fundamentals & Mini Projects (TODO App)   | 🔄 In Progress |
 | **Week 05** | React Basics, Components, and State Management  + Node Basics     |  ✅ Completed   |
-| **Week 06** | Backend with Node.js, Express & MongoDB              | ⏳ Upcoming     |
+| **Week 06** | Backend with Node.js, Express & MongoDB              | ✅ Completed     |
 | **Week 07** | Full-Stack MERN Project + Deployment                 | ⏳ Upcoming     |
 
 ---
@@ -191,6 +195,25 @@ buildables-fellowship/
 </details>
 
 ---
+# 📦 Week 06 — Express & MongoDB ⚡
+<details open>
+<summary>Click to Expand</summary>
+
+<br>
+
+| **Day** | **Topics Covered**                                                     | **Folder**                                                                                                                                                                              | **Status**  |
+| ------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 33      | Introduction to Express + Setting up Server                            | `Week-06/Day-01-02/Exercises/01-basic-server`                                                                                                                                           | ✅ Completed |
+| 34      | Express Routing, Middleware & Params                                   | `Week-06/Day-01-02/Exercises/02-routing` <br> `Week-06/Day-01-02/Exercises/03-middleware` <br> `Week-06/Day-01-02/Exercises/04-params-queries`                                          | ✅ Completed |
+| 35      | Error Handling & RESTful API Basics in Express                         | `Week-06/Day-01-02/Exercises/05-error-handling`                                                                                                                                         | ✅ Completed |
+| 36      | **Project** — Task Manager API (Express, In-Memory + MongoDB Fallback) | `Week-06/Day-01-02/Project-TaskAPI`                                                                                                                                                     | ✅ Completed |
+| 37      | MongoDB Setup & Connecting with Express                                | `Week-06/Day-05/Exercises/01-mongodb-setup`                                                                                                                                             | ✅ Completed |
+| 38      | CRUD Operations with MongoDB & Mongoose                                | `Week-06/Day-05/Exercises/02-crud-operations`                                                                                                                                           | ✅ Completed |
+| 39      | Building REST APIs with MongoDB (Validation, Queries, Aggregation)     | `Week-06/Day-05/Exercises/03-rest-api` <br> `Week-06/Day-05/Exercises/04-validation` <br> `Week-06/Day-05/Exercises/05-aggregation` <br> `Week-06/Day-05/Exercises/06-advanced-queries` | ✅ Completed |
+| 40      | **Project** — Blog API Pro (Auth, JWT, Posts, Comments, Validation)    | `Week-06/Day-05/Project-BlogAPI-Pro`                                                                                                                                                    | ✅ Completed |
+
+</details>
+
 
 ## 📚 Resources & References  
 
