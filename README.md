@@ -45,41 +45,35 @@ buildables-fellowship/
 │
 ├── Week-01/                         # HTML, CSS, JS Basics, Git & GitHub
 ├── Week-02/                         # CSS Grid, Flexbox, Responsive Layouts + Project
-│   ├── Notes/                       # In-depth notes + cheat sheets
-│   ├── Exercises/                   # Hands-on layout exercises
-│   ├── Project/                     # Responsive Blog Project + Landing Page
-│   └── assets/                      # Images, icons, static files
 ├── Week-03/                         # Tailwind CSS Mastery & E-commerce Project
-│   ├── Day-01/                      # Tailwind Setup & Utility Classes
-│   ├── Day-02/                      # Responsive Design with Tailwind
-│   ├── Day-03/                      # Flexbox & Grid in Tailwind
-│   ├── Day-04/                      # Typography, Colors & Customization
-│   ├── Day-05/                      # Components, Cards & Navbars
-│   └── Project/                     # E-commerce Homepage UI
 ├── Week-04/                         # JavaScript Fundamentals & Mini Projects
-│   ├── Day-01/                      # Variables & Data Types
-│   ├── Day-02/                      # Operators & Control Flow
-│   ├── Day-03/                      # Loops & Iterations
-│   ├── Day-04/                      # Functions + Color Changer Mini Project
-│   ├── Day-05/                      # TODO App (Functions + DOM Manipulation)
-│   ├── Day-06/                      # Arrays & Objects Deep Dive
-│   └── Day-07/                      # ES6 Features (Arrow Functions, Let & Const)
 ├── Week-05/                         # React + Node.js
-│   ├── Day-01-03/                   # React Fundamentals
-│   │   └── README.md
-│   ├── Day-04-05/                   # Node.js Fundamentals
-│   │   ├── Notes/                   
-│   │   ├── Exercises/               
-│   │   └── Project-BlogAPI/         
 ├── Week-06/                         # Express & MongoDB
-│   ├── Day-01-02/                   # Express Fundamentals
-│   │   ├── Exercises/               # Basic server, routing, middleware, params, error handling
-│   │   ├── Notes/                   # Intro, routing, middleware, REST, best practices
-│   │   └── Project-TaskAPI/         # Task Manager API (Express-only, with in-memory & Mongo fallback)
-│   └── Day-05/                      # MongoDB + REST API (Pro Blog API)
-│       ├── Exercises/               # MongoDB setup, CRUD, REST API, validation, aggregation, queries
-│       ├── Notes/                   # Deep dive MongoDB, CRUD, REST, validation, aggregation, best practices
-│       └── Project-BlogAPI-Pro/     # Full professional Blog API with Auth, Posts, Comments, Validation, JWT
+├── Week-07/                         # Advanced React State & Auth
+│   ├── Day-01/                      # 🔔 JWT Authentication
+│   │   ├── notes.md                 # Theory & workflow of JWT (Access & Refresh Tokens)
+│   │   ├── exercises/               # Hands-on practice: generating & verifying tokens
+│   │   └── mini-project/            # Small API + frontend login example
+│   ├── Day-02-03/                   # 🔔 Learn Redux Toolkit
+│   │   ├── notes.md                 # Concepts: store, slice, actions, reducers
+│   │   ├── exercises/               # Redux counter, async thunk example
+│   │   └── mini-project/            # Redux-based Todo or Theme toggler app
+│   └── Day-04-05/                   # 🔔 React State Management (Context + Hooks)
+│       ├── notes.md                 # Reflection on useState, useContext & global state
+│       └── react-state-project/     # Full React app folder
+│           ├── public/
+│           │   ├── index.html
+│           │   └── favicon.ico
+│           ├── src/
+│           │   ├── App.js
+│           │   ├── App.css
+│           │   ├── Counter.js
+│           │   ├── ThemeContext.js
+│           │   ├── ThemeDisplay.js
+│           │   ├── index.js
+│           │   └── index.css
+│           ├── package.json
+│           └── README.md
 └── README.md
 
 ```
