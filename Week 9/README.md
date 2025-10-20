@@ -61,12 +61,6 @@ PORT=5000
 NODE_ENV=development
 ```
 
-**For MongoDB Atlas (Cloud):**
-Replace `MONGODB_URI` with your Atlas connection string:
-```
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/goaltracker?retryWrites=true&w=majority
-```
-
 Start the backend server:
 ```bash
 npm run dev
