@@ -1,0 +1,148 @@
+.goal-item {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 5px solid #ccc;
+}
+
+.goal-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.goal-item.status-completed {
+  border-left-color: #2ecc71;
+}
+
+.goal-item.status-in-progress {
+  border-left-color: #f39c12;
+}
+
+.goal-item.status-not-started {
+  border-left-color: #95a5a6;
+}
+
+.goal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status-badge.status-completed {
+  background: #d5f4e6;
+  color: #27ae60;
+}
+
+.status-badge.status-in-progress {
+  background: #fef5e7;
+  color: #e67e22;
+}
+
+.status-badge.status-not-started {
+  background: #ecf0f1;
+  color: #7f8c8d;
+}
+
+.goal-content {
+  flex: 1;
+}
+
+.goal-title {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  word-wrap: break-word;
+}
+
+.goal-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+}
+
+.goal-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.meta-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.meta-label {
+  color: #666;
+  font-weight: 600;
+}
+
+.meta-value {
+  color: #888;
+}
+
+.goal-actions {
+  display: flex;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-btn {
+  background: #3498db;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .goal-title {
+    font-size: 1.2rem;
+  }
+
+  .goal-actions {
+    flex-direction: column;
+  }
+}
